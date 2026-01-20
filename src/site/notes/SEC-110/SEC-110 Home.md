@@ -1,6 +1,0 @@
----
-{"dg-publish":true,"permalink":"/sec-110/sec-110-home/"}
----
-
-# SEC-110 Home
-This is the Homepage for Tech Journals & Notes
