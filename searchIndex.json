@@ -1,15 +1,23 @@
 [
 {
+		"title": "Home Lab",
+		"date":"Tue Jan 20 2026 18:46:46 GMT+0000 (Coordinated Universal Time)",
+		"url":"/home-lab/home-lab/",
+		"content": "Home Lab\nPlaceholder...",
+		"tags": [ "note"]
+},
+
+{
 		"title": "Home",
-		"date":"Tue Jan 20 2026 18:46:26 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Jan 20 2026 18:46:46 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
-		"content": "Home\nThis is a place to put my <a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Home Lab</a> documentation and <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/sec-110/\">SEC-110</a> notes &amp; tech journals.",
+		"content": "Home\nThis is a place to put my <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/home-lab/home-lab/\">Home Lab</a> documentation and <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/sec-110/\">SEC-110</a> notes &amp; tech journals.",
 		"tags": [ "note","gardenEntry"]
 },
 
 {
 		"title": "Day 1 Notes",
-		"date":"Tue Jan 20 2026 18:46:26 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Jan 20 2026 18:46:46 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/day-1-notes/",
 		"content": "Date: 1/14/2026\nInstructor: LaKysha Patnode\nLecture Slides: [[Module 1 What is Cybersecurity.pdf]]\nModule #:\nNotes\n\ndon't hack each other\nextra credit can be applied to assignments you didn't do great on to bring the grade up\nWe wont get through the class activities completely in class due to time, however well work through the most technical parts\nsetup email forwarding from Champlain email to EHS email\nuse GitHub wiki page (?) for notes and tech journal, well also submit some assignments through the GitHub wiki page. need to add instructor as collaborator on it\nan appointment is needed to get office hours\nSyllabus: [[SEC-110-71_ Cybersecurity Fundamentals Syllabus-1.pdf]]\n\ngrade %s\n\nassignments 40% of grade\nClass activities 25% of grade\nQuizzes &amp; tests 10% of grade - low percentage because they are to check where you're at\nEngagement 10% - interacting in class and with materials outside of class\nFinal Project 15%\n\nLate policy\n\nlet her know ahead of time if you wont be able to be on time\nif you don't show up for 2 weeks in a row, and don't tell her, it is an automatic F\nemail her if its late, she might remove the deduction\nlate is 20% of grade taken off\nif you cant email her, its better to get it in on time and incomplete than it is to get it in late\nassignments for week 7 wont be accepted after week 7",
 		"tags": [ "note","SEC-110","Notes"]
@@ -17,7 +25,7 @@
 
 {
 		"title": "SEC-110",
-		"date":"Tue Jan 20 2026 18:46:26 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Jan 20 2026 18:46:46 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/sec-110/",
 		"content": "SEC-110 Home\nThis is the Homepage for Tech Journals &amp; Notes",
 		"tags": [ "note","SEC-110"]
