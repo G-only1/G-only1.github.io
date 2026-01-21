@@ -1,15 +1,15 @@
 [
 {
 		"title": "Home",
-		"date":"Wed Jan 21 2026 02:55:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 21 2026 03:09:51 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
-		"content": "Home\nThis is a place to put my <a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Home Lab</a> documentation and <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/sec-110/\">SEC-110</a> notes &amp; tech journals.",
+		"content": "Home\nThis is a place to put my <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/sec-110/\">SEC-110</a> notes &amp; tech journals.",
 		"tags": [ "note","gardenEntry"]
 },
 
 {
 		"title": "Day 1 Notes",
-		"date":"Wed Jan 21 2026 02:55:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 21 2026 03:09:51 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/day-1-notes/",
 		"content": "Date: 1/14/2026\nInstructor: LaKysha Patnode\nLecture Slides: [[Module 1 What is Cybersecurity.pdf]]\nModule #:\nNotes\n\ndon't hack each other\nextra credit can be applied to assignments you didn't do great on to bring the grade up\nWe wont get through the class activities completely in class due to time, however well work through the most technical parts\nsetup email forwarding from Champlain email to EHS email\nuse GitHub wiki page (?) for notes and tech journal, well also submit some assignments through the GitHub wiki page. need to add instructor as collaborator on it\nan appointment is needed to get office hours\nSyllabus: [[SEC-110-71_ Cybersecurity Fundamentals Syllabus-1.pdf]]\n\ngrade %s\n\nassignments 40% of grade\nClass activities 25% of grade\nQuizzes &amp; tests 10% of grade - low percentage because they are to check where you're at\nEngagement 10% - interacting in class and with materials outside of class\nFinal Project 15%\n\nLate policy\n\nlet her know ahead of time if you wont be able to be on time\nif you don't show up for 2 weeks in a row, and don't tell her, it is an automatic F\nemail her if its late, she might remove the deduction\nlate is 20% of grade taken off\nif you cant email her, its better to get it in on time and incomplete than it is to get it in late\nassignments for week 7 wont be accepted after week 7",
 		"tags": [ "note","SEC-110","Notes"]
@@ -17,15 +17,15 @@
 
 {
 		"title": "SEC-110",
-		"date":"Wed Jan 21 2026 02:55:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 21 2026 03:09:51 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/sec-110/",
-		"content": "SEC-110 Home\nThis is the Homepage for Tech Journals &amp; Notes",
+		"content": "This is the Homepage for Tech Journals &amp; Notes\nWeek 1: What is Cybersecurity?\n\nWeek 2: Intro to VMs / Intro to Kali\n\nWeek 3: Risk, Adversaries, and Threats\n\nWeek 4: Human Factors and Bias\n\nWeek 5: Data Security\n\nWeek 6: System Security\n\nWeek 7: Cryptography Basics\n\nWeek 8: Spring Break (NO CLASS)\n\nSpring break.\n\nWeek 9: Hashing &amp; Modern Ciphers\n\nWeek 10: Networking Basics\n\nWeek 11: Network Security\n\nWeek 12: Web Fundamentals\n\nWeek 13: Web Security\n\nWeek 14: Digital Investigations\n\nWeek 15: Final Project &amp; Quiz 3",
 		"tags": [ "note","SEC-110"]
 },
 
 {
 		"title": "1.3 ‐ Create a Tech Journal",
-		"date":"Wed Jan 21 2026 02:55:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 21 2026 03:09:51 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/tech-journals/1-3-create-a-tech-journal/",
 		"content": "Configuration\n\nCreated an empty obsidian vault\nEnable community plugins &amp; install the Digital Garden plugin\nFollow the setup instructions in digitalgarden_gh-pages\n\nHelpful Resources\n\nDigital Garden Docs\ndigitalgarden_gh-pages",
 		"tags": [ "note","SEC-110","Tech-Journal"]
