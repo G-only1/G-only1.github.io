@@ -3,14 +3,14 @@
     <title>Digital Garden</title>
     <link href="https://g-only1.github.io/feed.xml" rel="self" />
     <link href="https://g-only1.github.io" />
-    <updated>2026-01-21T04:16:41Z</updated>
+    <updated>2026-01-21T04:19:16Z</updated>
     <id>https://g-only1.github.io</id>
         <entry>
             <title>
                 1.3 ‐ Create a Tech Journal
                 
             </title>
-            <updated>2026-01-21T04:16:28Z</updated>
+            <updated>2026-01-21T04:19:03Z</updated>
             <id>https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/</id>
             <content type="html">
                 &lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
@@ -34,7 +34,7 @@
                 SEC-110
                 
             </title>
-            <updated>2026-01-21T04:16:28Z</updated>
+            <updated>2026-01-21T04:19:03Z</updated>
             <id>https://g-only1.github.io/sec-110/sec-110/</id>
             <content type="html">
                 &lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
@@ -78,10 +78,71 @@
         </entry>
         <entry>
             <title>
+                Day 0 Notes
+                
+            </title>
+            <updated>2026-01-21T04:19:03Z</updated>
+            <id>https://g-only1.github.io/sec-110/notes/day-0-notes/</id>
+            <content type="html">
+                &lt;p&gt;Date: 1/14/2026&lt;br /&gt;
+Instructor: LaKysha Patnode&lt;br /&gt;
+Lecture Slides: &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%201%20What%20is%20Cybersecurity.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 1 What is Cybersecurity.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;
+Module 0&lt;/p&gt;
+&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;don&#39;t hack each other&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;extra credit can be applied to assignments you didn&#39;t do great on to bring the grade up&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We wont get through the class activities completely in class due to time, however well work through the most technical parts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;setup email forwarding from Champlain email to EHS email&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;use GitHub wiki page (?) for notes and tech journal, well also submit some assignments through the GitHub wiki page. need to add instructor as collaborator on it&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;an appointment is needed to get office hours&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Syllabus: &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/SEC-110-71_%20Cybersecurity%20Fundamentals%20Syllabus-1.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;SEC-110-71_ Cybersecurity Fundamentals Syllabus-1.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grade Percentages&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;assignments 40% of grade&lt;/li&gt;
+&lt;li&gt;Class activities 25% of grade&lt;/li&gt;
+&lt;li&gt;Quizzes &amp;amp; tests 10% of grade - low percentage because they are to check where you&#39;re at&lt;/li&gt;
+&lt;li&gt;Engagement 10% - interacting in class and with materials outside of class&lt;/li&gt;
+&lt;li&gt;Final Project 15%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Late policy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;let her know ahead of time if you wont be able to be on time&lt;/li&gt;
+&lt;li&gt;if you don&#39;t show up for 2 weeks in a row, and don&#39;t tell her, it is an automatic F&lt;/li&gt;
+&lt;li&gt;email her if its late, she might remove the deduction&lt;/li&gt;
+&lt;li&gt;late is 20% of grade taken off&lt;/li&gt;
+&lt;li&gt;if you cant email her, its better to get it in on time and incomplete than it is to get it in late&lt;/li&gt;
+&lt;li&gt;assignments for week 7 wont be accepted after week 7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://g-only1.github.io/sec-110/notes/day-0-notes/" />
+        </entry>
+        <entry>
+            <title>
                 Home
                 
             </title>
-            <updated>2026-01-21T04:16:28Z</updated>
+            <updated>2026-01-21T04:19:03Z</updated>
             <id>https://g-only1.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;home&quot; tabindex=&quot;-1&quot;&gt;Home&lt;/h1&gt;
