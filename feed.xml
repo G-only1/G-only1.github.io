@@ -3,14 +3,14 @@
     <title>Digital Garden</title>
     <link href="https://g-only1.github.io/feed.xml" rel="self" />
     <link href="https://g-only1.github.io" />
-    <updated>2026-01-21T20:29:03Z</updated>
+    <updated>2026-01-21T20:29:28Z</updated>
     <id>https://g-only1.github.io</id>
         <entry>
             <title>
                 TJ1 ‐ Create a Tech Journal
                 
             </title>
-            <updated>2026-01-21T20:28:50Z</updated>
+            <updated>2026-01-21T20:29:17Z</updated>
             <id>https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/</id>
             <content type="html">
                 &lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
@@ -31,10 +31,34 @@
         </entry>
         <entry>
             <title>
+                1.3 ‐ Create a Tech Journal
+                
+            </title>
+            <updated>2026-01-21T20:29:17Z</updated>
+            <id>https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/</id>
+            <content type="html">
+                &lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;Created an empty obsidian vault&lt;/li&gt;
+&lt;li&gt;Enable community plugins &amp;amp; install the &lt;a href=&quot;https://github.com/oleeskild/obsidian-digital-garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Follow the &lt;a href=&quot;https://github.com/foxblock/digitalgarden_gh-pages?tab=readme-ov-file#setup&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;setup instructions&lt;/a&gt; in  digitalgarden_gh-pages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;helpful-resources&quot; tabindex=&quot;-1&quot;&gt;Helpful Resources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dg-docs.ole.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/foxblock/digitalgarden_gh-pages&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;digitalgarden_gh-pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/" />
+        </entry>
+        <entry>
+            <title>
                 SEC-110
                 
             </title>
-            <updated>2026-01-21T20:28:50Z</updated>
+            <updated>2026-01-21T20:29:17Z</updated>
             <id>https://g-only1.github.io/sec-110/sec-110/</id>
             <content type="html">
                 &lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
@@ -82,7 +106,7 @@
                 Mod 1 – What is Cybersecurity? (Notes)
                 
             </title>
-            <updated>2026-01-21T20:28:50Z</updated>
+            <updated>2026-01-21T20:29:17Z</updated>
             <id>https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/</id>
             <content type="html">
                 &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
@@ -253,7 +277,7 @@ Access based on the person’s attributes and conditions&lt;/li&gt;
                 Home
                 
             </title>
-            <updated>2026-01-21T20:28:50Z</updated>
+            <updated>2026-01-21T20:29:17Z</updated>
             <id>https://g-only1.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;home&quot; tabindex=&quot;-1&quot;&gt;Home&lt;/h1&gt;
