@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://g-only1.github.io">
     <title>Digital Garden</title>
-    <link href="https://g-only1.github.io/feed.xml" rel="self" >
-    <link href="https://g-only1.github.io" >
-    <updated>2026-01-21T03:32:12Z</updated>
+    <link href="https://g-only1.github.io/feed.xml" rel="self" />
+    <link href="https://g-only1.github.io" />
+    <updated>2026-01-21T03:33:05Z</updated>
     <id>https://g-only1.github.io</id>
         <entry>
             <title>
                 1.3 ‐ Create a Tech Journal
                 
             </title>
-            <updated>2026-01-21T03:31:59Z</updated>
+            <updated>2026-01-21T03:32:54Z</updated>
             <id>https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/</id>
             <content type="html">
                 &lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
@@ -27,14 +27,14 @@
 &lt;/ul&gt;
 
             </content>
-            <link href="https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/" >
+            <link href="https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/" />
         </entry>
         <entry>
             <title>
                 SEC-110
                 
             </title>
-            <updated>2026-01-21T03:31:59Z</updated>
+            <updated>2026-01-21T03:32:54Z</updated>
             <id>https://g-only1.github.io/sec-110/sec-110/</id>
             <content type="html">
                 &lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
@@ -73,20 +73,21 @@
 &lt;hr /&gt;
 
             </content>
-            <link href="https://g-only1.github.io/sec-110/sec-110/" >
+            <link href="https://g-only1.github.io/sec-110/sec-110/" />
         </entry>
         <entry>
             <title>
                 Home
                 
             </title>
-            <updated>2026-01-21T03:31:59Z</updated>
+            <updated>2026-01-21T03:32:54Z</updated>
             <id>https://g-only1.github.io/</id>
             <content type="html">
                 &lt;h1 id=&quot;home&quot; tabindex=&quot;-1&quot;&gt;Home&lt;/h1&gt;
 &lt;p&gt;This is a place to put my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/sec-110/&quot;&gt;SEC-110&lt;/a&gt; notes &amp;amp; tech journals.&lt;/p&gt;
 
             </content>
-            <link href="https://g-only1.github.io/" >
+            <link href="https://g-only1.github.io/" />
         </entry>
 </feed>
+
