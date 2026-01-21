@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://g-only1.github.io">
+    <title>Digital Garden</title>
+    <link href="https://g-only1.github.io/feed.xml" rel="self" >
+    <link href="https://g-only1.github.io" >
+    <updated>2026-01-21T03:32:12Z</updated>
+    <id>https://g-only1.github.io</id>
+        <entry>
+            <title>
+                1.3 ‐ Create a Tech Journal
+                
+            </title>
+            <updated>2026-01-21T03:31:59Z</updated>
+            <id>https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/</id>
+            <content type="html">
+                &lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;Created an empty obsidian vault&lt;/li&gt;
+&lt;li&gt;Enable community plugins &amp;amp; install the &lt;a href=&quot;https://github.com/oleeskild/obsidian-digital-garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Follow the &lt;a href=&quot;https://github.com/foxblock/digitalgarden_gh-pages?tab=readme-ov-file#setup&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;setup instructions&lt;/a&gt; in  digitalgarden_gh-pages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;helpful-resources&quot; tabindex=&quot;-1&quot;&gt;Helpful Resources&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dg-docs.ole.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/foxblock/digitalgarden_gh-pages&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;digitalgarden_gh-pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://g-only1.github.io/sec-110/tech-journals/1-3-create-a-tech-journal/" >
+        </entry>
+        <entry>
+            <title>
+                SEC-110
+                
+            </title>
+            <updated>2026-01-21T03:31:59Z</updated>
+            <id>https://g-only1.github.io/sec-110/sec-110/</id>
+            <content type="html">
+                &lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
+&lt;h2 id=&quot;week-1-what-is-cybersecurity&quot; tabindex=&quot;-1&quot;&gt;Week 1: What is Cybersecurity?&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-2-intro-to-v-ms-intro-to-kali&quot; tabindex=&quot;-1&quot;&gt;Week 2: Intro to VMs / Intro to Kali&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-3-risk-adversaries-and-threats&quot; tabindex=&quot;-1&quot;&gt;Week 3: Risk, Adversaries, and Threats&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-4-human-factors-and-bias&quot; tabindex=&quot;-1&quot;&gt;Week 4: Human Factors and Bias&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-5-data-security&quot; tabindex=&quot;-1&quot;&gt;Week 5: Data Security&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-6-system-security&quot; tabindex=&quot;-1&quot;&gt;Week 6: System Security&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-7-cryptography-basics&quot; tabindex=&quot;-1&quot;&gt;Week 7: Cryptography Basics&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-8-spring-break-no-class&quot; tabindex=&quot;-1&quot;&gt;Week 8: Spring Break (NO CLASS)&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring break.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;week-9-hashing-and-amp-modern-ciphers&quot; tabindex=&quot;-1&quot;&gt;Week 9: Hashing &amp;amp; Modern Ciphers&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-10-networking-basics&quot; tabindex=&quot;-1&quot;&gt;Week 10: Networking Basics&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-11-network-security&quot; tabindex=&quot;-1&quot;&gt;Week 11: Network Security&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-12-web-fundamentals&quot; tabindex=&quot;-1&quot;&gt;Week 12: Web Fundamentals&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-13-web-security&quot; tabindex=&quot;-1&quot;&gt;Week 13: Web Security&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-14-digital-investigations&quot; tabindex=&quot;-1&quot;&gt;Week 14: Digital Investigations&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;week-15-final-project-and-amp-quiz-3&quot; tabindex=&quot;-1&quot;&gt;Week 15: Final Project &amp;amp; Quiz 3&lt;/h2&gt;
+&lt;hr /&gt;
+
+            </content>
+            <link href="https://g-only1.github.io/sec-110/sec-110/" >
+        </entry>
+        <entry>
+            <title>
+                Home
+                
+            </title>
+            <updated>2026-01-21T03:31:59Z</updated>
+            <id>https://g-only1.github.io/</id>
+            <content type="html">
+                &lt;h1 id=&quot;home&quot; tabindex=&quot;-1&quot;&gt;Home&lt;/h1&gt;
+&lt;p&gt;This is a place to put my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/sec-110/&quot;&gt;SEC-110&lt;/a&gt; notes &amp;amp; tech journals.&lt;/p&gt;
+
+            </content>
+            <link href="https://g-only1.github.io/" >
+        </entry>
+</feed>
