@@ -1,7 +1,7 @@
 [
 {
 		"title": "Home",
-		"date":"Wed Jan 21 2026 20:29:17 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 28 2026 18:50:54 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "Home\nThis is a place to put my <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/sec-110/\">SEC-110</a> notes &amp; tech journals.",
 		"tags": [ "note","gardenEntry"]
@@ -9,31 +9,31 @@
 
 {
 		"title": "Mod 1 – What is Cybersecurity? (Notes)",
-		"date":"Wed Jan 21 2026 20:29:17 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 28 2026 18:50:54 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/notes/mod-1-what-is-cybersecurity-notes/",
 		"content": "Notes\n\nCybersecurity is fundamentally defensive.\nTo predict threats &amp; defend attacks you need to think like an attacker\nSystems designed to trust users can be exploited when opened to the public\nHackers like to go for easy targets\nHumans are often the weakest link\n\nVocabulary &amp; Key Terms\n\nCybersecurity\nCybersecurity is the method of defending computer systems, networks, and data from illegal access, harm, or utilization.\n\nMethods\nProcesses\nTools\nBehaviors\nPolicies\n\nWhy it matters:\n\nCritical infrastructure is becoming increasingly digital\nData is valuable, it needs protection\nPersonal information could be vulnerable\nCyber-attacks can cost millions\nNecessary to comply with regulations (GDPR, HIPAA, and PCI-DSS)\n\nCIA Triad\nThe CIA triad is the main base of cybersecurity\n\nConfidentiality: protecting personal information from unauthorized access, securing only authorized persons can access sensitive data.\n\nData can be used to hurt people &amp; organizations\nData Classification\nGDPR, HIPAA\n\nIntegrity: securing information is correct, complete, and hasn’t be changed without authorization.\n\nYou should be able to trust your data\nChecksums\nVersion Control\nAccess Logs\n\nAvailability: securing that authorized individuals can access data and resources when needed.\n\nBackup systems\nRedundant systems\nDDOS protections\nDisaster recovery planning\n\nThe CIA triad is a balance. Some parts can negate others.\n\nZero Trust\nDont trust anyone, not even yourself. Always check, and consistently check. Assumes no device should be trusted by default\n\nUsers only receive access to resources they need\nAlways verify\nDesign network assuming attackers are already inside our network\n\nInitially networks used trust but verify\n\nAuthentication: Who are you?\nAuthentication is the process of verifying someones identity\nMethods:\n\nSomething you know\n\nPassword\n\nSomething you have\n\nCode from app\nUSB token\n\nSomething you are (Biometrics)\n\nFingerprint\nFace scan\n\nMulti-Factor authentication should be required to authenticate.\n\nAuthorization: What can you do:\nAuthorization determines what resources or actions a person is allowed to access\nTypes\n\nRole-based Access Control (RBAC):\nAccess based on job role\nAttribute-based Access Control (ABAC):\nAccess based on the person’s attributes and conditions\n\nDefense In Depth\nA multi-layered approach to security controls\n\nEnsures that if one security measure fails, there ate others in place behind it\nMinimizes likelihood of breach\nGives time to launch countermeasures against an attack\n\nIdeally Network monitoring will be in place\n\nMain Ideas and Takeaways\n\nHuman Factors\nHumans are the weakest link\n\nbetween 68% to 95% of cyber incidents are caused by human error\nSocial engineering attacks\n\nPhishing\nPretexting\nBaiting\n\nLack of awareness &amp; training\n\nNot knowing what to do when a problem occurs\n\nBad password hygiene or authentication\n\nWeak passwords\n\nBad communication\n\nUser not reporting something suspicious\nUsers should feel safe to report suspicious activity\n\nThe Cybersecurity Mindset\nHaving a cybersecurity mindset is about more than stopping attackers\n\nPrepared, alert, and ethical\nAware of their online presence and digital footprint\nAlways learning new technology, tools, or exploits\n\nRead security blogs\nKeep up to date with tech news\nPracticing labs\n\nSlides",
 		"tags": [ "note","SEC-110","Notes"]
 },
 
 {
+		"title": "Mod 2 - Intro to Kali",
+		"date":"Wed Jan 28 2026 18:50:54 GMT+0000 (Coordinated Universal Time)",
+		"url":"/sec-110/notes/mod-2-intro-to-kali/",
+		"content": "Notes\n\nWe will be using Kali Linux in this class\n\nKali is Debian based\n\nCommon Scripting languages\n\nPython\n\nVery versatile, many libraries\n\nBash\n\nWe will be using Bash most of the time in this class.\nNative to UNIX / Linux\nStands for Bourne Again Shell\n\nJavaScript\n\nMostly used for web pages\nWorks well with HTML and CSS\n\nPowerShell\n\nBuilt on .NET framework\nObject oriented\n\nVocabulary &amp; Key Terms\n\nVirtual Machine (VM)\nA virtual operating system running on top of a hypervisor\n\nHypervisor\nA Hypervisor is software that allows a host machine to create and run VMs\n\nProxmox\nVMWare\nVirtuialBox\n\nOperating System (OS)\nAn Operating System manages:\n\nMemory\nProcesses\nAll software\nAll hardware\nCommon Operating Systems are:\nMicrosoft Windows\nmacOS\nLinux\nIOS\nAndroid\nChromeOS\n\nCommands, Tools, or Techniques\n\nUseful Commands\n\npwd (Prints working directory)\nmkdir ( Creates a directory within the current directory)\ncd (changes the current working directory)\nls (Displays all files and directories in the current directory)\nls -l (Lists files &amp; file permissions)\nclear (Clears text from the terminal)\ntouch (Creates a file without entering a text editor)\nmv (Moves a file or directory)\nsudo (runs command with administrator privileges after authentication)\nchmod (Changes permissions on files)\n\nLogging into the Cyber Range\n\nGo to https://range.leahycenter.org\nEnter your Champlain email to be sent a one time code\nEnter your proxmox username and password.\nUse the realm outreach.local\nLogin\n\nAdding a new user\n\nuse sudo su to become superuser\ntype adduser &lt;user_name&gt; to create a user\nSet the password (the adduser command will ask for the password)\nAdd the user to the sudo group using usermod -aG sudo &lt;user_name&gt;\n\nUseful Resources\n\nhttps://www.kali.org/tools/",
+		"tags": [ "note","SEC-110","Notes"]
+},
+
+{
 		"title": "SEC-110",
-		"date":"Wed Jan 21 2026 20:29:17 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 28 2026 18:50:54 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/sec-110/",
-		"content": "This is the Homepage for Tech Journals &amp; Notes\nWeek 1: What is Cybersecurity?\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/tech-journals/tj-1-create-a-tech-journal/\">TJ1 ‐ Create a Tech Journal</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-1-what-is-cybersecurity-notes/\">Mod 1 – What is Cybersecurity? (Notes)</a>\nWeek 2: Intro to VMs / Intro to Kali\n\nWeek 3: Risk, Adversaries, and Threats\n\nWeek 4: Human Factors and Bias\n\nWeek 5: Data Security\n\nWeek 6: System Security\n\nWeek 7: Cryptography Basics\n\nWeek 8: Spring Break (NO CLASS)\n\nSpring break.\n\nWeek 9: Hashing &amp; Modern Ciphers\n\nWeek 10: Networking Basics\n\nWeek 11: Network Security\n\nWeek 12: Web Fundamentals\n\nWeek 13: Web Security\n\nWeek 14: Digital Investigations\n\nWeek 15: Final Project &amp; Quiz 3",
+		"content": "This is the Homepage for Tech Journals &amp; Notes\nWeek 1: What is Cybersecurity?\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/tech-journals/tj-1-create-a-tech-journal/\">TJ1 ‐ Create a Tech Journal</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-1-what-is-cybersecurity-notes/\">Mod 1 – What is Cybersecurity? (Notes)</a>\nWeek 2: Intro to VMs / Intro to Kali\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-2-intro-to-kali/\">Mod 2 - Intro to Kali</a>\nWeek 3: Risk, Adversaries, and Threats\n\nWeek 4: Human Factors and Bias\n\nWeek 5: Data Security\n\nWeek 6: System Security\n\nWeek 7: Cryptography Basics\n\nWeek 8: Spring Break (NO CLASS)\n\nSpring break.\n\nWeek 9: Hashing &amp; Modern Ciphers\n\nWeek 10: Networking Basics\n\nWeek 11: Network Security\n\nWeek 12: Web Fundamentals\n\nWeek 13: Web Security\n\nWeek 14: Digital Investigations\n\nWeek 15: Final Project &amp; Quiz 3",
 		"tags": [ "note","SEC-110"]
 },
 
 {
-		"title": "1.3 ‐ Create a Tech Journal",
-		"date":"Wed Jan 21 2026 20:29:17 GMT+0000 (Coordinated Universal Time)",
-		"url":"/sec-110/tech-journals/1-3-create-a-tech-journal/",
-		"content": "Configuration\n\nCreated an empty obsidian vault\nEnable community plugins &amp; install the Digital Garden plugin\nFollow the setup instructions in digitalgarden_gh-pages\n\nHelpful Resources\n\nDigital Garden Docs\ndigitalgarden_gh-pages",
-		"tags": [ "note","SEC-110","Tech-Journal"]
-},
-
-{
 		"title": "TJ1 ‐ Create a Tech Journal",
-		"date":"Wed Jan 21 2026 20:29:17 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jan 28 2026 18:50:54 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/tech-journals/tj-1-create-a-tech-journal/",
 		"content": "Configuration\n\nCreated an empty obsidian vault\nEnable community plugins &amp; install the Digital Garden plugin\nFollow the setup instructions in digitalgarden_gh-pages\n\nHelpful Resources\n\nDigital Garden Docs\ndigitalgarden_gh-pages",
 		"tags": [ "note","SEC-110","Tech-Journal"]
