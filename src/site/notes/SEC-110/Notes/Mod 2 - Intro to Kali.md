@@ -72,3 +72,6 @@ ___
 ___
 ## Useful Resources
 - https://www.kali.org/tools/
+
+# Slides
+- [[SEC-110/Slides/Mod 2_ Intro to VMs and Kali Linux\|Mod 2_ Intro to VMs and Kali Linux]]
