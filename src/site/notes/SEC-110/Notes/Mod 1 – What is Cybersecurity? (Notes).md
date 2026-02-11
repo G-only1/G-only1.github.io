@@ -111,4 +111,4 @@ Having a cybersecurity mindset is about more than stopping attackers
 	- Practicing labs
 ___
 # Slides
-[[SEC-110/Slides/Module 1 What is Cybersecurity\|Module 1 What is Cybersecurity]]
+[[SEC-110/Slides/Module 1 What is Cybersecurity (Slides)\|Module 1 What is Cybersecurity (Slides)]]
