@@ -1,15 +1,15 @@
 [
 {
 		"title": "Home",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "Home\nThis is a place to put my <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/sec-110/\">SEC-110</a> notes &amp; tech journals.",
 		"tags": [ "note","gardenEntry"]
 },
 
 {
-		"title": "Mod 1 – What is Cybersecurity? (Notes)",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"title": "Mod 1 - What is Cybersecurity? (Notes)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/notes/mod-1-what-is-cybersecurity-notes/",
 		"content": "Notes\n\nCybersecurity is fundamentally defensive.\nTo predict threats &amp; defend attacks you need to think like an attacker\nSystems designed to trust users can be exploited when opened to the public\nHackers like to go for easy targets\nHumans are often the weakest link\n\nVocabulary &amp; Key Terms\n\nCybersecurity\nCybersecurity is the method of defending computer systems, networks, and data from illegal access, harm, or utilization.\n\nMethods\nProcesses\nTools\nBehaviors\nPolicies\n\nWhy it matters:\n\nCritical infrastructure is becoming increasingly digital\nData is valuable, it needs protection\nPersonal information could be vulnerable\nCyber-attacks can cost millions\nNecessary to comply with regulations (GDPR, HIPAA, and PCI-DSS)\n\nCIA Triad\nThe CIA triad is the main base of cybersecurity\n\nConfidentiality: protecting personal information from unauthorized access, securing only authorized persons can access sensitive data.\n\nData can be used to hurt people &amp; organizations\nData Classification\nGDPR, HIPAA\n\nIntegrity: securing information is correct, complete, and hasn’t be changed without authorization.\n\nYou should be able to trust your data\nChecksums\nVersion Control\nAccess Logs\n\nAvailability: securing that authorized individuals can access data and resources when needed.\n\nBackup systems\nRedundant systems\nDDOS protections\nDisaster recovery planning\n\nThe CIA triad is a balance. Some parts can negate others.\n\nZero Trust\nDont trust anyone, not even yourself. Always check, and consistently check. Assumes no device should be trusted by default\n\nUsers only receive access to resources they need\nAlways verify\nDesign network assuming attackers are already inside our network\n\nInitially networks used trust but verify\n\nAuthentication: Who are you?\nAuthentication is the process of verifying someones identity\nMethods:\n\nSomething you know\n\nPassword\n\nSomething you have\n\nCode from app\nUSB token\n\nSomething you are (Biometrics)\n\nFingerprint\nFace scan\n\nMulti-Factor authentication should be required to authenticate.\n\nAuthorization: What can you do:\nAuthorization determines what resources or actions a person is allowed to access\nTypes\n\nRole-based Access Control (RBAC):\nAccess based on job role\nAttribute-based Access Control (ABAC):\nAccess based on the person’s attributes and conditions\n\nDefense In Depth\nA multi-layered approach to security controls\n\nEnsures that if one security measure fails, there ate others in place behind it\nMinimizes likelihood of breach\nGives time to launch countermeasures against an attack\n\nIdeally Network monitoring will be in place\n\nMain Ideas and Takeaways\n\nHuman Factors\nHumans are the weakest link\n\nbetween 68% to 95% of cyber incidents are caused by human error\nSocial engineering attacks\n\nPhishing\nPretexting\nBaiting\n\nLack of awareness &amp; training\n\nNot knowing what to do when a problem occurs\n\nBad password hygiene or authentication\n\nWeak passwords\n\nBad communication\n\nUser not reporting something suspicious\nUsers should feel safe to report suspicious activity\n\nThe Cybersecurity Mindset\nHaving a cybersecurity mindset is about more than stopping attackers\n\nPrepared, alert, and ethical\nAware of their online presence and digital footprint\nAlways learning new technology, tools, or exploits\n\nRead security blogs\nKeep up to date with tech news\nPracticing labs\n\nSlides\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/slides/module-1-what-is-cybersecurity-slides/\">Module 1 What is Cybersecurity (Slides)</a>",
 		"tags": [ "note","SEC-110","Notes"]
@@ -17,15 +17,15 @@
 
 {
 		"title": "Mod 2 - Intro to Kali",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/notes/mod-2-intro-to-kali/",
 		"content": "Notes\n\nWe will be using Kali Linux in this class\n\nKali is Debian based\n\nCommon Scripting languages\n\nPython\n\nVery versatile, many libraries\n\nBash\n\nWe will be using Bash most of the time in this class.\nNative to UNIX / Linux\nStands for Bourne Again Shell\n\nJavaScript\n\nMostly used for web pages\nWorks well with HTML and CSS\n\nPowerShell\n\nBuilt on .NET framework\nObject oriented\n\nVocabulary &amp; Key Terms\n\nVirtual Machine (VM)\nA virtual operating system running on top of a hypervisor\n\nHypervisor\nA Hypervisor is software that allows a host machine to create and run VMs\n\nProxmox\nVMWare\nVirtuialBox\n\nOperating System (OS)\nAn Operating System manages:\n\nMemory\nProcesses\nAll software\nAll hardware\nCommon Operating Systems are:\nMicrosoft Windows\nmacOS\nLinux\nIOS\nAndroid\nChromeOS\n\nCommands, Tools, or Techniques\n\nUseful Commands\n\npwd (Prints working directory)\nmkdir ( Creates a directory within the current directory)\ncd (changes the current working directory)\nls (Displays all files and directories in the current directory)\nls -l (Lists files &amp; file permissions)\nclear (Clears text from the terminal)\ntouch (Creates a file without entering a text editor)\nmv (Moves a file or directory)\nsudo (runs command with administrator privileges after authentication)\nchmod (Changes permissions on files)\n\nLogging into the Cyber Range\n\nGo to https://range.leahycenter.org\nEnter your Champlain email to be sent a one time code\nEnter your proxmox username and password.\nUse the realm outreach.local\nLogin\n\nAdding a new user\n\nuse sudo su to become superuser\ntype adduser &lt;user_name&gt; to create a user\nSet the password (the adduser command will ask for the password)\nAdd the user to the sudo group using usermod -aG sudo &lt;user_name&gt;\n\nUseful Resources\n\nhttps://www.kali.org/tools/\n\nSlides\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/\">Mod 2_ Intro to VMs and Kali Linux (Slides)</a>",
 		"tags": [ "note","SEC-110","Notes"]
 },
 
 {
-		"title": "Mod 4 Human Factors in Cybersecurity and Bias",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"title": "Mod 4 - Human Factors in Cybersecurity and Bias",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/",
 		"content": "Notes\n\nBias impacts in Cybersecurity\n\nDecision making\nRisk management\nTechnical approaches\nResource allocation\nDiversity of perspectives\n\nDecision Quality\n\nSteps for making a good decision:\nMeeting goals\nLogical Thinking\nForecasting (thinking ahead)\nRisk assessment\nEvaluation\n\nOSINT\n\nOpen Source INTelligence: The process of collecting and analyzing publicly available information to generate actionable intelligence\nOSINT Sources:\n\nWebsites\nBlogs\nSocial Media\n\nPurpose in CyberSec:\n\nRecon during pen testing\nAttacker profiling\nThreat intelligence\n\nCleaning Your Digital Footprint\n\nGoogle Yourself\n\nCheck name/usernames\n\nDelete/deactivate old accounts:\n\nhttps://backgroundchecks.org/justdeleteme\nOnline Stores\nApps\n\nClear out social media\nUnsubscribe from emails/newsletters\nRevoke app permissions\nCheck is passwords/emails have been compromised\n\nhttps://haveibeenpwned.com\n\nSocial Engineering Tools\n\nSocial Engineering Toolkit (SET): an open-source tool focused on penetration testing involving Social-Engineering.\nKey features:\n\nSpear phishing attack vector\nWebsite attack vectors\nInfectious media generator\nCredential harvester\n\nBeEF (Browser Exploitation Framework): BeEF is a penetration tool that mainly focuses on the web browser. It allows the professional penetration tester to assess the actual security posture of a target environment by using client-side attack vectors.\nKey Features:\n\nExploiting Vulnerabilities in Web Browsers\nClient-Side Testing\nReal Time Interaction\nEducation &amp; Training\nCross-Site Scripting (XSS) Exploitation\n\nMaltego: A cyber investigation platform that is used in gathering and visually displaying information.\n\nIt can be used for OSINT and Threat Intelligence.\nIt can also automate repetitive processes which saves an investigator’s time.\n\nVocabulary &amp; Key Terms\n\nBias\n\nPrejudice in favor of or against one thing, person, or group compared with another, usually in an unfair way.\nExamples:\n\nAssuming a person who is bad at sports is also bad at academics, even without evidence to support it.\nFocusing only on information that supports your existing beliefs and ignoring other perspectives.\nAn individual actively avoiding another based on one negative trait.\n\nCognitive Bias\n\nWhen individuals tend to act unreasonable or irrational when thinking in an organized way.\nExample: Thinking that taking a plane is more dangerous than driving/traveling in a car.\nTypes of Cognitive Bias:\n\nMedia Bias\nMotivational Bias\nNonverbal Bias\nAffinity Bias\nHalo/Horns Effect\nSimilarity Bias\nContrast Effect\nAttribution Bias\nConfirmation Bias\nAppearance Bias\nConformity Bias\n\nMotivational Bias\n\nOccurs when someone's personal motivations, desires, or interests influence their thoughts, decisions, or perceptions in a way that leads to biased conclusions.\nExample: A common example of motivational bias in cybersecurity is when security teams downplay or dismiss a vulnerability because they conflict with existing beliefs about their network's security posture.\n\nNonverbal Bias\n\nOccurs when people show positive or negative behavior towards another group, ultimately excluding others.\nExample: A junior analyst raises concerns about suspicious network activity, but senior staff dismiss them with eye rolls and crossed arms because the analyst &quot;looks young.”\n\nAffinity Bias\n\nSeen when two or more people are drawn together through a common connection like a shared hometown, hobbies, or attending the same school.\nExample: Security team overlooks suspicious behavior from a colleague who attended the same university, shares similar hobbies, or is part of their social circle. Because of this, an insider threat goes undetected longer when perpetrators are well-liked or socially similar to security staff\n\nHalo / Horns Effect\n\nA form of bias in which someone allows their opinions of a person to be formed around any given action from that person.\nHalo Effect:\n\nA pentester with certifications is assumed to be great at ALL security domains. The team doesn't review their cloud security recommendations even though their expertise is in network penetration. Poor security architecture decisions were made because nobody challenges the &quot;expert&quot;\nHorns Effect:\n\nA company experiences a data breach, but responds by adding more comprehensive security improvements. Despite their efforts, they are still viewed as &quot;insecure&quot; years later. Any security related news about them gets amplified. Their improved security posture is ignored because the past breach defines them.\n\nContrast Effect\n\nComes from comparing those around us to what we believe is a general stereotype for their type of work, rather than off of their skills in the given line of work.\nExample: After responding to a massive ransomware attack, the team receives an alert about credential stuffing attempts. Team dismisses it as &quot;not a big deal&quot; because compared to ransomware, it seems minor. But, in reality, credential stuffing could lead to account compromise and data exfiltration.\n\nAttribution Bias\n\nAttributing a success or loss to external factors that occurred.\nExample: An organization experiences a data breach where the attackers achieved network access through a misconfiguration in a vendor application. The organization blames the vendor. However, the configuration setting missed had been disabled by someone in their organization.\n\nConfirmation Bias\n\nAfter making a judgement call, it is human nature to look for or interpret new information such that it supports their prior beliefs, causing tunnel vision.\nExample: Our security information and event management (SIEM) tool has a rule that generates many false positive alerts. Because of the number of alerts, the analyst stops investigating alerts from that rule altogether. One day the alert IS a real incident, but the analyst dismisses it based on historical pattern. The incident escalates and results in a data breach.\n\nConformity Bias\n\nSeen when an opinion is made only to conform with a group-think mentality, or for fear of speaking out against a group.\nExample: The security team is reviewing a pen test report that has a critical finding. The most senior person on the team looks around the room and says, “This isn’t realistic. Our Web Application Firewall (WAF) would block this. Raise your hand if you agree.” All of the junior analysts raise their hand, although several disagree.\n\nSocial Engineering\n\nSocial Engineering is manipulating people into giving up confidential information or performing actions that compromise security.\nCommon Techniques:\n\nPhishing: a scam where attackers deceive people into revealing sensitive information or installing malware\n\nSpear Phishing: sending fraud emails from a known sender to targeted individuals\nWhaling: Targeting high-level executives with phishing attacks.\n\nVishing (Voice Phishing): using phone calls or voice message to deceive victims into revealing information\nPretexting: An attacker fabricates a story/text to deceive a victim into providing sensitive information.\nBaiting: Physical Baiting: an attacker leaves a malware-infected USB drive in a high traffic location, hoping an employee will pick them up and plug them into their computer.\nDeepfakes: altered text, audio, images, or videos meant to make it seem like a person did something they never did.\n\nUsing synthetic audio to impersonate a CEO asking their employee for money over the phone.\nDefacing a person or organization by making them appear to do or say something controversial.\n\nMain Ideas and Takeaways\n\nBias can impact decision making, evaluation, and risk assessment.\nHumans are the biggest threat to cybersecurity\n\nMost cyber attacks happen not because of technical flaws, but because people are tricked.\n95% of successful cyber attacks are caused by human error\n\nBest Practices:\n\nThink before you click\nUse strong and varying passwords\nMulti-Factor Authentication (MFA)\nKeep your systems up to date\nSocial engineering training\nBe skeptical\n\nSlides\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/\">Module 4_ Human Factors in Cybersecurity and Bias (slides)</a>",
 		"tags": [ "note","SEC-110","Notes"]
@@ -33,15 +33,15 @@
 
 {
 		"title": "SEC-110",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/sec-110/",
-		"content": "This is the Homepage for Tech Journals &amp; Notes\nWeek 1: What is Cybersecurity?\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/tech-journals/tj-1-create-a-tech-journal/\">TJ1 ‐ Create a Tech Journal</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-1-what-is-cybersecurity-notes/\">Mod 1 – What is Cybersecurity? (Notes)</a>\nWeek 2: Intro to VMs / Intro to Kali\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-2-intro-to-kali/\">Mod 2 - Intro to Kali</a>\nWeek 3: Risk, Adversaries, and Threats\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Mod 3 - Risks, Adversaries, and Threats</a>\nWeek 4: Human Factors and Bias\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/\">Mod 4 Human Factors in Cybersecurity and Bias</a>\nWeek 5: Data Security\n\nWeek 6: System Security\n\nWeek 7: Cryptography Basics\n\nWeek 8: Spring Break (NO CLASS)\n\nSpring break.\n\nWeek 9: Hashing &amp; Modern Ciphers\n\nWeek 10: Networking Basics\n\nWeek 11: Network Security\n\nWeek 12: Web Fundamentals\n\nWeek 13: Web Security\n\nWeek 14: Digital Investigations\n\nWeek 15: Final Project &amp; Quiz 3",
+		"content": "This is the Homepage for Tech Journals &amp; Notes\nWeek 1: What is Cybersecurity?\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/tech-journals/tj-1-create-a-tech-journal/\">TJ1 ‐ Create a Tech Journal</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-1-what-is-cybersecurity-notes/\">Mod 1 - What is Cybersecurity? (Notes)</a>\nWeek 2: Intro to VMs / Intro to Kali\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-2-intro-to-kali/\">Mod 2 - Intro to Kali</a>\nWeek 3: Risk, Adversaries, and Threats\n\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Mod 3 - Risks, Adversaries, and Threats</a>\nWeek 4: Human Factors and Bias\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/\">Mod 4 - Human Factors in Cybersecurity and Bias</a>\nWeek 5: Data Security\n\nWeek 6: System Security\n\nWeek 7: Cryptography Basics\n\nWeek 8: Spring Break (NO CLASS)\n\nSpring break.\n\nWeek 9: Hashing &amp; Modern Ciphers\n\nWeek 10: Networking Basics\n\nWeek 11: Network Security\n\nWeek 12: Web Fundamentals\n\nWeek 13: Web Security\n\nWeek 14: Digital Investigations\n\nWeek 15: Final Project &amp; Quiz 3",
 		"tags": [ "note","SEC-110"]
 },
 
 {
 		"title": "Mod 2_ Intro to VMs and Kali Linux (Slides)",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/",
 		"content": "",
 		"tags": [ "note"]
@@ -49,7 +49,7 @@
 
 {
 		"title": "Module 1 What is Cybersecurity (Slides)",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/slides/module-1-what-is-cybersecurity-slides/",
 		"content": "",
 		"tags": [ "note"]
@@ -57,7 +57,7 @@
 
 {
 		"title": "Module 3_ Risks, Adversaries, and Threats (slides)",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/slides/module-3-risks-adversaries-and-threats-slides/",
 		"content": "",
 		"tags": [ "note"]
@@ -65,7 +65,7 @@
 
 {
 		"title": "Module 4_ Human Factors in Cybersecurity and Bias (slides)",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/",
 		"content": "",
 		"tags": [ "note"]
@@ -73,7 +73,7 @@
 
 {
 		"title": "SEC-110-71_ Cybersecurity Fundamentals Syllabus-1 (slides)",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/",
 		"content": "",
 		"tags": [ "note"]
@@ -81,7 +81,7 @@
 
 {
 		"title": "Week 2 Kali Cheat Sheet",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/slides/week-2-kali-cheat-sheet/",
 		"content": "",
 		"tags": [ "note"]
@@ -89,7 +89,7 @@
 
 {
 		"title": "TJ1 ‐ Create a Tech Journal",
-		"date":"Wed Feb 11 2026 18:02:57 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Feb 11 2026 18:06:09 GMT+0000 (Coordinated Universal Time)",
 		"url":"/sec-110/tech-journals/tj-1-create-a-tech-journal/",
 		"content": "Configuration\n\nCreated an empty obsidian vault\nEnable community plugins &amp; install the Digital Garden plugin\nFollow the setup instructions in digitalgarden_gh-pages\n\nHelpful Resources\n\nDigital Garden Docs\ndigitalgarden_gh-pages",
 		"tags": [ "note","SEC-110","Tech-Journal"]
