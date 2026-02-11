@@ -145,4 +145,4 @@ ___
 	- Social engineering training 
 	- Be skeptical
 # Slides
-[[SEC-110/Slides/Module 4_ Human Factors in Cybersecurity and Bias\|Module 4_ Human Factors in Cybersecurity and Bias]]
+[[SEC-110/Slides/Module 4_ Human Factors in Cybersecurity and Bias (slides)\|Module 4_ Human Factors in Cybersecurity and Bias (slides)]]
