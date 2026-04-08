@@ -1,0 +1,107 @@
+---
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-8-ciphers-and-hashing/","tags":["SEC-110","Notes"]}
+---
+
+# Notes
+- **Hash Functions**
+	- Maps digital data of arbitrary size to digital data of fixed size. 
+	- The hash is sometimes called a message digest.
+	- Impossible to invert
+	- Variable input/Fixed output size: 
+		- Can be applied to data of practically any size but the output is always a fixed number of bits.
+	- Preimage resistant (not reversible): 
+		- Virtually impossible to find the input value for a given hash value
+	- Collision resistant: 
+		- Impossible to find two inputs that have the same hash value.
+	- Efficient: 
+		- Fast, and simple to compute on hardware and software
+	- Pseudorandomness: 
+		- The outputs pass tests designed to detect not truly random, but imitating randomness known as pseudorandomness.
+	- sometimes combines with a random value called a "salt"
+		- A salt makes hashes of the same password look different
+	- *Hash Uses*:
+		- Password Files:
+			- used to securely store and transmit passwords
+			- Only the hashed password is stored,
+			- when the password is entered it is hashed and compared to the stored hash
+			- no one can see the plain text password
+		- Digital Signatures:
+			- When you sign messages digitally, the hash value of the message is encrypted instead of the message itself. This allows messages of arbitrary lengths to be signed.
+		- File signature: 
+			- Related to virus detection, hashes serve as a fingerprint or signature for a file. You can differentiate between one Notepad.exe from another. Hashes are used to verify downloaded files.
+		- Intrusion/Virus Detection: 
+			- A change in the hash value of a file may indicate an intrusion or a virus.
+			- can compare file hash with the official one to ensure it wasn't tampered with during download
+		- Pseudorandom number generator: 
+			- One of the required properties of a cryptographic function is that the output has to pass pseudorandomness tests.
+			- No detectable pattern or correlations
+			- Not reversible
+			- Collision Resistant
+			- Output distribution even across all possible values
+		- File synchronization: 
+			- Whether to upload a file or not for synchronization (for example with cloud storage) can be determined by checking the hash value of the file has changed or not since the last update.
+			- decreases resource usage
+	- *Hash Algorithms*
+		- MD - Message Digest Algorithms
+			- MD4 
+				- 128 bit digests; used in TLS certificates 
+				- considered obsolete
+				- has hash collision issues
+				- no longer used
+			- MD5 
+				- Similar to MD4; security severely compromised, so not suitable for cryptographic use.
+				- was meant to fix the issues with MD4 
+				- had the same issues as MD4
+		- SHA: Secure Hash Algorithm
+			- SHA-1 
+				- Designed by NSA 
+				- Published by NIST in 1993 as Federal Info. Processing Standard
+				- only used in legacy systems
+			- SHA-2 
+				- Designed by NSA 
+				- Published by NIST in 2001 as Federal Info. Processing Standard
+				- current industry standard
+	- *Salting*
+		- Another technique used for securing hash functions is the practice of salting.
+		- The idea of Cryptographic Salt is to add a string of random characters to a password before it is hashed and stored to create an extra layer of randomness. 
+		- salts can be stored next to hashes
+		- Salting helps prevent rainbow table attacks by ensuring that the same password used by two users will not return the same value because of the random salt value. 
+- **Rainbow Tables**
+	- A rainbow table is a password-cracking tool that uses a table with precomputed hash values to crack the password hashes in a database.
+- **Modern Cipher Examples**
+	- An early concept was the Caesar Cipher, which shifted the letter of each word by a fixed number within the alphabet.
+		- very easy to break
+	- In our modern world with computers and tech, we have: 
+		- RSA Encryption
+			- A public key system that uses a pair of keys to secure digital communication. 
+		- AES Encryption
+			- An algorithm that takes a fixed-size input and makes a ciphertext of 128/192/256 bits.
+- **Cipher in the Real World** 
+	- SSL/TLS Certificates 
+		- Verification for a website’s encrypted connections for secure online connection
+		- used by HTTPS
+	- SSH Configurations
+		- Secure Shell to create a secure connection between two machines. 
+		- uses key based authentication
+	- Secure Messaging Apps 
+		- End-to-end encryption via built-in apps or apps such as WhatsApp or Signal.
+		- ensures only the sender and receiver can read the messages
+	- Electronic Money 
+		- Protection of money being sent or transferred online. 
+- **Steganography**
+	- Steganography is the practice of concealing information within another message or physical object to avoid detection.
+	- “Hiding in Plain sight”
+	- Invisible Ink 
+	- Embedding a picture 
+	- Masking in an audio file
+	- Inserting data into a video frame
+	- Hiding text in whitespaces
+	- Metadata
+## Vocabulary & Key Terms
+- Authenticity: Digital signatures & digital certificates.
+- Non-Repudiation: Digital signatures, digital certificates. 
+	- making sure something can't be duplicated
+  
+
+# Slides
+[[SEC-110/Slides/Module 8 Ciphers and Hashing (slides)\|Module 8 Ciphers and Hashing (slides)]]
