@@ -26,5 +26,36 @@ Its been a few years since I've used this router and i don't remember the passwo
 12. Type `config-register 0x2102`
 13. Press **Ctrl-z** or **end** in order to leave the configuration mode
 14. Type `write memory` or `copy running-config startup-config` in order to commit the changes
+## Disabling annoying log messages
+One of the fans on my router is broken, which causes an error message to be sent to the console roughly every 15 seconds. This gets **very** annoying after a while.
+
+To disable logging errors to console:
+1. Type `configure terminial` to enter global configuration mode
+2. Type `no logging console` to disable logging to console
+3. Type `exit` to leave global configuration mode
+4. Type `write memory` to save the configuration
+## Setting the correct time
+Make sure you use 24 hour time (military time) when setting the clock
+1. `enable`
+2. `clock set <hh:mm:ss> <day> <month> <year>`
+	- In my case the command was: `clock set 23:44:00 18 April 2026`
+3. `write`
 ## Interface Configuration
+I will be using interface Fa0/0 to connect to the phones.
+1. `enable`
+2. `configure terminial`
+3. `interface FastEthernet 0/0` enters configuration more for interface Fa0/0
+4. `ip address <ip-address> <subnet-mask>` sets the interfaces IP address
+5. `no shutdown` enables the interface
 ## DHCP Server
+The DHCP server will be configured to give addresses on the 192.168.110.0 network. I used [this guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmenetwk.html#ucme_g_configure).
+
+To configure the DHCP server:
+1. `enable`
+2. `configure terminial`
+3. `ip dhcp pool <pool-name>`
+4. `network <ip-address> <subnet-mask>`
+5. `option 150 ip <ip-address>`
+	- This tells the phones the address of the TFTP server to download configs from.
+	- This should be the CME router's IP address
+6. `default-router <ip-address>`
