@@ -4,6 +4,38 @@
 
 This is the challenges, commands, and process used to configure Cisco Call Manager Express (CME) running on a 2800 router with 7940 series IP phones.
 
+# Switch Configuration
+My switch is a 24 port Cisco 3500XL with inline power (POE before POE). It is running a very old version of IOS (12.4) so some commands might be different on newer versions.
+## Trunk Port to Connect to CME Router
+The trunk port will be used to connect to port Fa0/0 on the router running CME
+1. `enable`
+2. `configure terminial`
+3. `interface FastEthernet 0/1`
+4. `description CONNECTION TO ROUTER-ON-A-STICK CME ROUTER`
+5. `switchport trunk encapsulation dot1q`
+6. `switchport mode trunk`
+7. `end`
+8. `write`
+## VLAN Configuration
+1. `enable`
+2. `vlan database`
+3. `vlan 115`
+4. `vlan 115 name VOICE`
+5. `vlan 110`
+6. `vlan 110 name DATA`
+7. `apply`
+8. `exit`
+9. `write`
+## Assigning Switchport to a VLAN
+1. `enable`
+2. `configure terminial`
+3. `interface fastEthernet 0/2`
+4. `switchport mode access`
+5. `switchport access vlan 110`
+6. `switchport voice vlan 115`
+> [!note]
+> To configure multiple switchports at once use `interface range <interface>`
+
 # Router Configuration
 I have a Cisco 2800 router running IOS version 12.4
 ## Resetting Router Password
@@ -40,22 +72,56 @@ Make sure you use 24 hour time (military time) when setting the clock
 2. `clock set <hh:mm:ss> <day> <month> <year>`
 	- In my case the command was: `clock set 23:44:00 18 April 2026`
 3. `write`
-## Interface Configuration
-I will be using interface Fa0/0 to connect to the phones.
+## Interface & VLAN Configuration
+I will be using interface Fa0/0 to connect to the phones. VLAN 115 will be the voice VLAN and 110 will be the data VLAN.
 1. `enable`
 2. `configure terminial`
 3. `interface FastEthernet 0/0` enters configuration more for interface Fa0/0
-4. `ip address <ip-address> <subnet-mask>` sets the interfaces IP address
-5. `no shutdown` enables the interface
-## DHCP Server
+4. `no ip address` remove IP address from interface
+5. `interface fa0/0.115` enters configuration more for interface Fa0/0.115
+6. `description ROUTER INTERFACE VOICE VLAN` add description to interface
+7. `encapsulation dot1q 115`
+8. `ip address 192.168.115.1 255.255.255.0` sets the interfaces IP address
+9. `exit`
+10. `interface fa0/0.110` enters configuration more for interface Fa0/0.110
+11. `description ROUTER INTERFACE FOR DATA VLAN` add description to interface
+12. `encapsulation dot1q 110`
+13. `ip address 192.168.110.1 255.255.255.0`
+14. `end`
+15. `write`
+## DHCP Server Configuration
 The DHCP server will be configured to give addresses on the 192.168.110.0 network. I used [this guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmenetwk.html#ucme_g_configure).
-
 To configure the DHCP server:
 1. `enable`
 2. `configure terminial`
-3. `ip dhcp pool <pool-name>`
-4. `network <ip-address> <subnet-mask>`
-5. `option 150 ip <ip-address>`
+3. `ip dhcp excluded-address 192.168.115.1 192.168.115.10`
+4. `ip dhcp excluded-address 192.168.110.1 192.168.110.10`
+5. `ip dhcp pool VOICE-POOL`
+6. `network 192.168.115.0 255.255.255.0`
+7. `default-router 192.168.115.1`
+8. `option 150 ip <ip-address>`
 	- This tells the phones the address of the TFTP server to download configs from.
 	- This should be the CME router's IP address
-6. `default-router <ip-address>`
+9. `dns-server 192.168.115.1`
+10. `ip dhcp pool DATA-POOL`
+11. `network 192.168.110.0 255.255.255.0`
+12. `default-router 192.168.110.1`
+13. `dns-server 192.168.110.1`
+14. `end`
+15. `write`
+## TFTP Server Configuration
+The TFTP server is how the phones will get their configurations as well as ringtones or any other files they need. The specific file names and paths can vary depending on the version you have, make sure to double check they are correct. The phones are very picky about it.
+1. `enable`
+2. `configure terminial`
+3. `tftp-server flash:7940-7960/8-1-1/P00308010100.bin`
+4. `tftp-server flash:7940-7960/8-1-1/P00308010100.loads`
+5. `tftp-server flash:7940-7960/8-1-1/P00308010100.sb2`
+6. `tftp-server flash:7940-7960/8-1-1/P00308010100.sbn`
+7. `end`
+8. `write`
+
+
+# Resources
+[how to configure cme.pdf](https://mrncciew.com/wp-content/uploads/2013/07/how-to-configure-cme.pdf)
+[Cisco Unified Communications Manager Express System Administrator Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmenetwk.html)
+[Configuring VLANs on Cisco Switches](https://www.practicalnetworking.net/stand-alone/configuring-vlans/)
