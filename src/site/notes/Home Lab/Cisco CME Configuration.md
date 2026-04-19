@@ -14,8 +14,9 @@ The trunk port will be used to connect to port Fa0/0 on the router running CME
 4. `description CONNECTION TO ROUTER-ON-A-STICK CME ROUTER`
 5. `switchport trunk encapsulation dot1q`
 6. `switchport mode trunk`
-7. `end`
-8. `write`
+7. `switchport trunk native vlan 110`
+8. `end`
+9. `write`
 ## VLAN Configuration
 1. `enable`
 2. `vlan database`
@@ -85,7 +86,7 @@ I will be using interface Fa0/0 to connect to the phones. VLAN 115 will be the v
 9. `exit`
 10. `interface fa0/0.110` enters configuration more for interface Fa0/0.110
 11. `description ROUTER INTERFACE FOR DATA VLAN` add description to interface
-12. `encapsulation dot1q 110`
+12. `encapsulation dot1q 110 native`
 13. `ip address 192.168.110.1 255.255.255.0`
 14. `end`
 15. `write`
@@ -103,12 +104,13 @@ To configure the DHCP server:
 	- This tells the phones the address of the TFTP server to download configs from.
 	- This should be the CME router's IP address
 9. `dns-server 192.168.115.1`
-10. `ip dhcp pool DATA-POOL`
-11. `network 192.168.110.0 255.255.255.0`
-12. `default-router 192.168.110.1`
-13. `dns-server 192.168.110.1`
-14. `end`
-15. `write`
+10. `exit`
+11. `ip dhcp pool DATA-POOL`
+12. `network 192.168.110.0 255.255.255.0`
+13. `default-router 192.168.110.1`
+14. `dns-server 192.168.110.1`
+15. `end`
+16. `write`
 ## TFTP Server Configuration
 The TFTP server is how the phones will get their configurations as well as ringtones or any other files they need. The specific file names and paths can vary depending on the version you have, make sure to double check they are correct. The phones are very picky about it.
 1. `enable`
@@ -119,7 +121,14 @@ The TFTP server is how the phones will get their configurations as well as ringt
 6. `tftp-server flash:7940-7960/8-1-1/P00308010100.sbn`
 7. `end`
 8. `write`
-
+## Telephony Service Configuration
+Finally getting to the good part!
+1. `enable`
+2. `configure terminial`
+3. `telephony-service`
+4. `max-ephones 10`
+5. `max-dn 20`
+6. `ip source address 192.168.115.1`
 
 # Resources
 [how to configure cme.pdf](https://mrncciew.com/wp-content/uploads/2013/07/how-to-configure-cme.pdf)
