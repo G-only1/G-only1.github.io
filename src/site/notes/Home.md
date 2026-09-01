@@ -3,4 +3,4 @@
 ---
 
 # Home
-This is a place to put my [[SEC-110/SEC-110\|SEC-110]] notes & tech journals. I also have notes from my [[Home Lab/Home Lab\|Home Lab]]
+This is a place to put my notes, documentation, and tech journals for [[SEC-110/SEC-110\|SEC-110]], [[SEC-250/SEC-250\|SEC-250]], and my [[Home Lab/Home Lab\|Home Lab]]
