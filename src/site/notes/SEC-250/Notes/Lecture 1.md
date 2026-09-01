@@ -89,3 +89,5 @@
 		- I: Ensuring information remains accurate and hasn't been modified by unauthorized parties
 		- A: Ensuring information in a systems is accessible when needed by authorized users
 	- These three goals conflict with each-other and need to be balanced.
+
+## Slides: [Mod 1 - Introductions and Chapter 01.pdf](/img/user/SEC-250/Slides/Mod%201%20-%20Introductions%20and%20Chapter%2001.pdf)

@@ -87,4 +87,6 @@
 	7. Legal Compliance & Audit
 	8. Crisis Management
 	9. Back to \#1
-- 
+
+
+## Slides: [Mod 2- Key Concepts and Principles.pdf](/img/user/SEC-250/Slides/Mod%202-%20Key%20Concepts%20and%20Principles.pdf)
