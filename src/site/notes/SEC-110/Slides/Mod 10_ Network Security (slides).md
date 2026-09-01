@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/slides/mod-10-network-security-slides/"}
+{"dg-publish":true,"permalink":"/sec-110/slides/mod-10-network-security-slides/","dg-note-properties":{}}
 ---
 
 

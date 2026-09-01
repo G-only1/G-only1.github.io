@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-2-intro-to-kali/","tags":["SEC-110","Notes"]}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-2-intro-to-kali/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-01-01","Instructor":"LaKysha Patnode","Lecture Slides":"[Mod 2_ Intro to VMs and Kali Linux.pdf](/img/user/SEC-110/Slides/Mod%202_%20Intro%20to%20VMs%20and%20Kali%20Linux.pdf)","Module #":["2"],"tags":["SEC-110","Notes"]}}
 ---
 
 # Notes

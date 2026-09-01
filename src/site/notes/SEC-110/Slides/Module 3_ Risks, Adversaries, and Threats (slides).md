@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/slides/module-3-risks-adversaries-and-threats-slides/"}
+{"dg-publish":true,"permalink":"/sec-110/slides/module-3-risks-adversaries-and-threats-slides/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-7-cryptography-basics/","tags":["SEC-110","Notes"]}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-7-cryptography-basics/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-01-01","Instructor":"LaKysha Patnode","Lecture Slides":"[Module 7- Cryptography Basics.pdf](/img/user/SEC-110/Slides/Module%207-%20Cryptography%20Basics.pdf)","Module #":["7"],"tags":["SEC-110","Notes"]}}
 ---
 
 # Notes

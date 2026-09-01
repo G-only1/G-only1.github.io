@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-5-data-security/","tags":["SEC-110","Notes"]}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-5-data-security/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-02-18","Instructor":"LaKysha Patnode","Lecture Slides":"[Mod 5_ Data Security.pdf](/img/user/SEC-110/Slides/Mod%205_%20Data%20Security.pdf)","Module #":["5"],"tags":["SEC-110","Notes"]}}
 ---
 
 # Notes

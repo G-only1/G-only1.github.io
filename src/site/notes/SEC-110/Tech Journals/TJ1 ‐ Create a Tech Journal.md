@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/tech-journals/tj-1-create-a-tech-journal/","tags":["SEC-110","Tech-Journal"]}
+{"dg-publish":true,"permalink":"/sec-110/tech-journals/tj-1-create-a-tech-journal/","tags":["SEC-110","Tech-Journal"],"dg-note-properties":{"tags":["SEC-110","Tech-Journal"]}}
 ---
 
 # Configuration
