@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"dg-note-properties":{"tags":null,"Link":"https://g-only1.github.io/"}}
 ---
 
 # Home

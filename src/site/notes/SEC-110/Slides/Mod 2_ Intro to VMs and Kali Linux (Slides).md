@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/"}
+{"dg-publish":true,"permalink":"/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/","dg-note-properties":{}}
 ---
 
 

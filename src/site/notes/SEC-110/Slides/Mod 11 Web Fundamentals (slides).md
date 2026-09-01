@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/slides/mod-11-web-fundamentals-slides/"}
+{"dg-publish":true,"permalink":"/sec-110/slides/mod-11-web-fundamentals-slides/","dg-note-properties":{}}
 ---
 
 

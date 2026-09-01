@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home-lab/cisco-cme-configuration/"}
+{"dg-publish":true,"permalink":"/home-lab/cisco-cme-configuration/","dg-note-properties":{}}
 ---
 
 This is the challenges, commands, and process used to configure Cisco Call Manager Express (CME) running on a 2800 router with 7940 series IP phones.
@@ -33,7 +33,8 @@ The trunk port will be used to connect to port Fa0/0 on the router running CME
 3. `interface fastEthernet 0/2`
 4. `switchport mode access`
 5. `switchport access vlan 110`
-6. `switchport voice vlan 115`
+6. `switchport voice vlan dot1p`
+7. `switchport trunk encapsulation dot1q`
 > [!note]
 > To configure multiple switchports at once use `interface range <interface>`
 
@@ -100,7 +101,7 @@ To configure the DHCP server:
 5. `ip dhcp pool VOICE-POOL`
 6. `network 192.168.115.0 255.255.255.0`
 7. `default-router 192.168.115.1`
-8. `option 150 ip <ip-address>`
+8. `option 150 ip 192.168.115.1`
 	- This tells the phones the address of the TFTP server to download configs from.
 	- This should be the CME router's IP address
 9. `dns-server 192.168.115.1`
@@ -115,12 +116,13 @@ To configure the DHCP server:
 The TFTP server is how the phones will get their configurations as well as ringtones or any other files they need. The specific file names and paths can vary depending on the version you have, make sure to double check they are correct. The phones are very picky about it.
 1. `enable`
 2. `configure terminial`
-3. `tftp-server flash:7940-7960/8-1-1/P00308010100.bin`
-4. `tftp-server flash:7940-7960/8-1-1/P00308010100.loads`
-5. `tftp-server flash:7940-7960/8-1-1/P00308010100.sb2`
-6. `tftp-server flash:7940-7960/8-1-1/P00308010100.sbn`
-7. `end`
-8. `write`
+3. `tftp-server flash:7940-7960/8-1-1/P00308010100.bin alias P00308010100.bin`
+4. `tftp-server flash:7940-7960/8-1-1/P00308010100.loads alias P00308010100.loads`
+5. `tftp-server flash:7940-7960/8-1-1/P00308010100.sb2 alias P00308010100.sb2`
+6. `tftp-server flash:7940-7960/8-1-1/P00308010100.sbn alias P00308010100.sbn`
+7. `tftp-server flash:/ringtones/RINGLIST.XML alias RINGLIST.XML`
+8. `end`
+9. `write`
 ## Telephony Service Configuration
 Finally getting to the good part!
 1. `enable`
@@ -129,6 +131,7 @@ Finally getting to the good part!
 4. `max-ephones 10`
 5. `max-dn 20`
 6. `ip source address 192.168.115.1`
+
 
 # Resources
 [how to configure cme.pdf](https://mrncciew.com/wp-content/uploads/2013/07/how-to-configure-cme.pdf)
