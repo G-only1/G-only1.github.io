@@ -1,19 +1,481 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://g-only1.github.io">
-    <title>Digital Garden</title>
-    <link href="https://g-only1.github.io/feed.xml" rel="self" />
-    <link href="https://g-only1.github.io" />
-    <updated>2026-04-19T19:03:37Z</updated>
-    <id>https://g-only1.github.io</id>
-        <entry>
-            <title>
-                TJ1 ‐ Create a Tech Journal
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/</id>
-            <content type="html">
-                &lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
+  <title>Digital Garden</title>
+  <link href="https://g-only1.github.io/feed.xml" rel="self"/>
+  <link href="https://g-only1.github.io"/>
+  <updated>2026-09-01T17:07:48Z</updated>
+  <id>https://g-only1.github.io</id><entry>
+    <title>test</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/test/</id>
+    <content type="html">&lt;p&gt;asdf test 1234 asdfadfgsdfg&lt;/p&gt;
+</content>
+    <link href="https://g-only1.github.io/test/"/>
+  </entry><entry>
+    <title>Lecture 2</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-250/notes/lecture-2/</id>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;Information Security
+&lt;ul&gt;
+&lt;li&gt;protects sensitive data or information from unauthorized access, modification, disclosure, destruction, or disruption&lt;/li&gt;
+&lt;li&gt;Common goal is to protect the CIA triad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Purpose of InfoSec
+&lt;ul&gt;
+&lt;li&gt;Protect
+&lt;ul&gt;
+&lt;li&gt;Information&lt;/li&gt;
+&lt;li&gt;People&lt;/li&gt;
+&lt;li&gt;Systems&lt;/li&gt;
+&lt;li&gt;Hardware used to store, transmit, and process data&lt;/li&gt;
+&lt;li&gt;Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Consequences of inadequate InfoSec
+&lt;ul&gt;
+&lt;li&gt;Financial loss&lt;/li&gt;
+&lt;li&gt;reputation damage&lt;/li&gt;
+&lt;li&gt;data loss&lt;/li&gt;
+&lt;li&gt;legal liability&lt;/li&gt;
+&lt;li&gt;can range from inconvenient to catastrophic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Requirements
+&lt;ul&gt;
+&lt;li&gt;The requirements of InfoSec have majorly changed over the last few decades&lt;/li&gt;
+&lt;li&gt;It used to be more focused on physical access&lt;/li&gt;
+&lt;li&gt;Automated tools are now a necessity for protecting data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Layers of security
+&lt;ul&gt;
+&lt;li&gt;We need multiple protections at each layer&lt;/li&gt;
+&lt;li&gt;Communications
+&lt;ul&gt;
+&lt;li&gt;TCP/IP: since it connects everything&lt;/li&gt;
+&lt;li&gt;Network Security is essential to protect data that is being transmitted and guarantee the data is not tampered with during transmission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Physical
+&lt;ul&gt;
+&lt;li&gt;Oldest form of security&lt;/li&gt;
+&lt;li&gt;Can not be ignored&lt;/li&gt;
+&lt;li&gt;Part of any security system&lt;/li&gt;
+&lt;li&gt;Need to consider
+&lt;ul&gt;
+&lt;li&gt;insecure server room doors&lt;/li&gt;
+&lt;li&gt;physical keys and id badges&lt;/li&gt;
+&lt;li&gt;no timeout on systems&lt;/li&gt;
+&lt;li&gt;devices left open&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Software
+&lt;ul&gt;
+&lt;li&gt;Deals with
+&lt;ul&gt;
+&lt;li&gt;OS security&lt;/li&gt;
+&lt;li&gt;Application security&lt;/li&gt;
+&lt;li&gt;Software utilities / tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Even security tools need to be secured&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More devices == more software == mode things that can break&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Security needs to be baked into every single phase of software development&lt;/li&gt;
+&lt;li&gt;in practice, secure design, development, and deployment is lagging behind significantly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;People
+&lt;ul&gt;
+&lt;li&gt;Can&#39;t be fixed by fancy technology&lt;/li&gt;
+&lt;li&gt;takes a lot of effort to secure&lt;/li&gt;
+&lt;li&gt;weakest link&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Common threats right now
+&lt;ul&gt;
+&lt;li&gt;Malware&lt;/li&gt;
+&lt;li&gt;Ransomware&lt;/li&gt;
+&lt;li&gt;Phishing&lt;/li&gt;
+&lt;li&gt;insider threats&lt;/li&gt;
+&lt;li&gt;DDOS&lt;/li&gt;
+&lt;li&gt;SQL injection&lt;/li&gt;
+&lt;li&gt;Zero days&lt;/li&gt;
+&lt;li&gt;etc...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The goal is not to protect against all of them, but to protect against the most critical ones for your organization.&lt;/li&gt;
+&lt;li&gt;Security frameworks
+&lt;ul&gt;
+&lt;li&gt;ISO/IEC 27001:2013
+&lt;ul&gt;
+&lt;li&gt;Specifies management system that is intended to bring information security under management control and gives specific requirements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NIST Special Publication 800-39
+&lt;ul&gt;
+&lt;li&gt;Managing info security risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NIST Special Publication 800-53 Revision 4
+&lt;ul&gt;
+&lt;li&gt;Security and privacy controls for federal information systems and organizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SABSA
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;methodology for developing business-driven, risk and opportunity focused security architecture, at both enterprise and solutions level that tractably support business objectives.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;None of these use the same layers but all have core layering concepts in common&lt;/li&gt;
+&lt;li&gt;Security implementation cycle
+&lt;ol&gt;
+&lt;li&gt;Risk Assessment
+&lt;ul&gt;
+&lt;li&gt;Why put money into it if it isn&#39;t a risk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Planning &amp;amp; Architecture
+&lt;ul&gt;
+&lt;li&gt;Plan how you are going to deal with that risk&lt;/li&gt;
+&lt;li&gt;and setup the architecture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Gap Analysis
+&lt;ul&gt;
+&lt;li&gt;We know what we want to do&lt;/li&gt;
+&lt;li&gt;Do we already have what we need to do it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Integration &amp;amp; Deployment&lt;/li&gt;
+&lt;li&gt;Operations
+&lt;ul&gt;
+&lt;li&gt;Create procedures and polices for managing it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Monitoring &amp;amp; Forensic Analysis
+&lt;ul&gt;
+&lt;li&gt;No point in security controls if we don&#39;t know they are operating effectively&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Legal Compliance &amp;amp; Audit&lt;/li&gt;
+&lt;li&gt;Crisis Management&lt;/li&gt;
+&lt;li&gt;Back to &lt;a class=&quot;tag&quot; data-content=&quot;#1&quot;&gt;#1&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-250/notes/lecture-2/"/>
+  </entry><entry>
+    <title>Lecture 1</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-250/notes/lecture-1/</id>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;What is Cyber security:
+&lt;ul&gt;
+&lt;li&gt;Method of defending computer systems, networks, and data from illegal access and harm.
+&lt;ul&gt;
+&lt;li&gt;Methods&lt;/li&gt;
+&lt;li&gt;Processes&lt;/li&gt;
+&lt;li&gt;Tools&lt;/li&gt;
+&lt;li&gt;Behaviors
+&lt;ul&gt;
+&lt;li&gt;How people interact with systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Policies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Security needs a balance between usability and cost&lt;/li&gt;
+&lt;li&gt;Security costs money but doesn&#39;t generate profit
+&lt;ul&gt;
+&lt;li&gt;Equipment: Costs money to purchase and maintain&lt;/li&gt;
+&lt;li&gt;Personnel: expertise, training, paychecks&lt;/li&gt;
+&lt;li&gt;Slows down processes: Uses extra resources on networks and computers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ROI&lt;/strong&gt;: &lt;strong&gt;R&lt;/strong&gt;eturn &lt;strong&gt;O&lt;/strong&gt;n &lt;strong&gt;I&lt;/strong&gt;nvestment
+&lt;ul&gt;
+&lt;li&gt;ROI Formula: ROI = (reduction in risk &#39;$&#39; - cost of controls) / cost of controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reduction in risk is hard to quantify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The cost of doing security is much lower than the cost of not doing security
+&lt;ul&gt;
+&lt;li&gt;The cost of a breach in the US costs over $10 million for a company&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Risks of ignoring security:
+&lt;ul&gt;
+&lt;li&gt;Identity theft&lt;/li&gt;
+&lt;li&gt;Loosing lots of money $$$$$&lt;/li&gt;
+&lt;li&gt;Intellectual property theft&lt;/li&gt;
+&lt;li&gt;Data Integrity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You can not choose to ignore security, the risks are too high.&lt;/li&gt;
+&lt;li&gt;What might be vulnerable?:
+&lt;ul&gt;
+&lt;li&gt;Email&lt;/li&gt;
+&lt;li&gt;Humans&lt;/li&gt;
+&lt;li&gt;Security Cameras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Risks change over time&lt;/li&gt;
+&lt;li&gt;Security in day to day life:
+&lt;ul&gt;
+&lt;li&gt;Account passwords&lt;/li&gt;
+&lt;li&gt;Phone passwords&lt;/li&gt;
+&lt;li&gt;VPNs&lt;/li&gt;
+&lt;li&gt;Password managers&lt;/li&gt;
+&lt;li&gt;2FA&lt;/li&gt;
+&lt;li&gt;Encryption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Part of understanding risk is forecasting what we think will happen
+&lt;ul&gt;
+&lt;li&gt;We can speculate but we can&#39;t know for sure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Humans are the &amp;quot;week factor&amp;quot; in security
+&lt;ul&gt;
+&lt;li&gt;Passwords: weak, same, or none&lt;/li&gt;
+&lt;li&gt;Training: are they even trained? do they know what is &amp;quot;secure&amp;quot;?&lt;/li&gt;
+&lt;li&gt;Behavior: internal &amp;amp; external threats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;How Security is implemented
+&lt;ul&gt;
+&lt;li&gt;It varies &lt;em&gt;significantly&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;every company does it differently&lt;/li&gt;
+&lt;li&gt;There is no one size fits all solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Physical Security
+&lt;ul&gt;
+&lt;li&gt;Locks&lt;/li&gt;
+&lt;li&gt;Alarms&lt;/li&gt;
+&lt;li&gt;Fences&lt;/li&gt;
+&lt;li&gt;Guards&lt;/li&gt;
+&lt;li&gt;Cameras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data
+&lt;ul&gt;
+&lt;li&gt;Stored data (data at rest)
+&lt;ul&gt;
+&lt;li&gt;Firewall for network access&lt;/li&gt;
+&lt;li&gt;Antivirus software&lt;/li&gt;
+&lt;li&gt;Encryption&lt;/li&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Regular Updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Transient Data (data in motion)
+&lt;ul&gt;
+&lt;li&gt;Firewall&lt;/li&gt;
+&lt;li&gt;Encryption&lt;/li&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Data loss prevention&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Two Major Approaches:
+&lt;ol&gt;
+&lt;li&gt;Principle of least privilege: Limit access to only those that need it
+&lt;ul&gt;
+&lt;li&gt;Every additional access point is another potential security risk&lt;/li&gt;
+&lt;li&gt;If an account gets compromised, an attacker can only get to what that person had access to.&lt;/li&gt;
+&lt;li&gt;If that person had access to everything then the attacker also has access to everything&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Transform data so it is only readable to those who need it
+&lt;ul&gt;
+&lt;li&gt;Encryption&lt;/li&gt;
+&lt;li&gt;not usable without the encryption key&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;These apply to everything, securing buildings, computer networks, or anything else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Defense in depth
+&lt;ul&gt;
+&lt;li&gt;Security should not rely on a single protective measure&lt;/li&gt;
+&lt;li&gt;Have multiple layers of security, so if one layer fails there are still others to protect you&lt;/li&gt;
+&lt;li&gt;Everything has become much more complex&lt;/li&gt;
+&lt;li&gt;Nothing is completely safe&lt;/li&gt;
+&lt;li&gt;There is no way to make all layers completely safe&lt;/li&gt;
+&lt;li&gt;Every layer MUST be secured&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Information Security
+&lt;ul&gt;
+&lt;li&gt;CIA Triad
+&lt;ul&gt;
+&lt;li&gt;C: protection from unauthorized access and disclosure&lt;/li&gt;
+&lt;li&gt;I: Ensuring information remains accurate and hasn&#39;t been modified by unauthorized parties&lt;/li&gt;
+&lt;li&gt;A: Ensuring information in a systems is accessible when needed by authorized users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;These three goals conflict with each-other and need to be balanced.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-250/notes/lecture-1/"/>
+  </entry><entry>
+    <title>Operation Shadow Breach</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-250/assignments/operation-shadow-breach/operation-shadow-breach/</id>
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;Tech Nova is using Apache version 2.4.49&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Operation%20Shadow%20Breach/_assets/Pasted%20image%2020260831123620.png&quot; alt=&quot;Pasted image 20260831123620.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;CVE-2021-41773 is asociated with Apache version 2.4.49
+&lt;ul&gt;
+&lt;li&gt;This is a path traversal attack that can view files and folders outside of the web root folder&lt;/li&gt;
+&lt;li&gt;It can also be exploited to get remote code execution on the server&lt;/li&gt;
+&lt;li&gt;A path traversal attack tries to access files and folders outside of the web root folder&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://owasp.org/www-community/attacks/Path_Traversal&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://owasp.org/www-community/attacks/Path_Traversal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Exploit Public-Facing Application: T1190: &lt;a href=&quot;https://attack.mitre.org/techniques/T1190/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://attack.mitre.org/techniques/T1190/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;nmap -sV -sC -p- 10.0.17.7&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;Open Ports and services running
+&lt;ul&gt;
+&lt;li&gt;21: FTP&lt;/li&gt;
+&lt;li&gt;22: SSH&lt;/li&gt;
+&lt;li&gt;80: HTTP&lt;/li&gt;
+&lt;li&gt;139: Samba (SMB)&lt;/li&gt;
+&lt;li&gt;443: HTTPS&lt;/li&gt;
+&lt;li&gt;445: Samba (SMB)&lt;/li&gt;
+&lt;li&gt;3306: MySQL&lt;/li&gt;
+&lt;li&gt;8080: HTTP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;what can be used to get a remote session on the target VM?
+&lt;ul&gt;
+&lt;li&gt;SSH can be used for remote access if we can get the username and password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Operation%20Shadow%20Breach/_assets/Pasted%20image%2020260831125659.png&quot; alt=&quot;Pasted image 20260831125659.png397&quot; width=&quot;397px&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Find a username
+&lt;ul&gt;
+&lt;li&gt;Possible Usernames
+&lt;ul&gt;
+&lt;li&gt;Mike Chen - mchen-technova
+&lt;ul&gt;
+&lt;li&gt;dev OPS engineer&lt;/li&gt;
+&lt;li&gt;mchen@technova.local&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sarah Johnson - sjohnson-tech
+&lt;ul&gt;
+&lt;li&gt;sjohnson@technova.local&lt;/li&gt;
+&lt;li&gt;IT manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Emily Watson
+&lt;ul&gt;
+&lt;li&gt;CTO&lt;/li&gt;
+&lt;li&gt;ewatson@technova.local&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Alex Rodriguez
+&lt;ul&gt;
+&lt;li&gt;arodriguez@technova.local&lt;/li&gt;
+&lt;li&gt;Security Analyst&lt;/li&gt;
+&lt;li&gt;LOGIN WORKS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;admin
+&lt;ul&gt;
+&lt;li&gt;admin pass: TechNova2024!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ceaser cypher with a shift of 9
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Cqrwt-Lxuunlc-Yajlcrlju-Knbc-Proc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;decrypts to &lt;code&gt;Think-Collect-Practical-Best-Gift&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I was able to login to arodriguez with the above password&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Operation%20Shadow%20Breach/_assets/Pasted%20image%2020260831131609.png&quot; alt=&quot;Pasted image 20260831131609.png&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;reflection-questions&quot; tabindex=&quot;-1&quot;&gt;Reflection Questions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Describe the complete attack path you took from initial reconnaissance to gaining SSH access. What were the critical steps?
+&lt;ol&gt;
+&lt;li&gt;First we visited their website and found that they had published that they were using a vulnurable version of Apache in production, allong with the version number&lt;/li&gt;
+&lt;li&gt;Next we did some research and found a path traversal and remote code execution CVE that could be exploited on their Apache webserver&lt;/li&gt;
+&lt;li&gt;After that we used nmap to scan the web servers IP address and find ports and services that were open&lt;/li&gt;
+&lt;li&gt;Then we did some OSINT on their website to find potential usernames to login to their web server via SSH&lt;/li&gt;
+&lt;li&gt;We got lucky and our friend sent us a password to the &amp;quot;arodriguez&amp;quot; account on the webserver in the form of a ceaser cypher&lt;/li&gt;
+&lt;li&gt;We logged into the web server using SSH&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;If you were TechNova&#39;s security team, at which stage do you think you could you have detected this attack? How?
+&lt;ul&gt;
+&lt;li&gt;If i was on their security team, i think it would have been dificult for us to detect this attack until it was already too late because of how much publicly available information was used. We could have detected it during the nmap scan or by monitoring the SSH access logs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Rate the severity of the Apache 2.4.49 vulnerability on a scale of 1-10. Justify your rating using CVSS scores and business context.
+&lt;ul&gt;
+&lt;li&gt;I would give the Apache 2.4.49 vulnerability a rating of 10 because it gives an attacker the ability to read and posibly modify any file on a vulnurable server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;after-reading-the-risk-acceptance-form-explain-why-tech-nova-chose-to-keep-the-vulnerable-server-running-instead-of-patching-immediately&quot; tabindex=&quot;-1&quot;&gt;After reading the risk acceptance form, explain WHY TechNova chose to  keep the vulnerable server running instead of patching immediately.&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;do-you-agree-or-disagree-with-tech-nova-s-decision-support-your-answer-with-specific-reasoning-about-business-vs-security-trade-offs&quot; tabindex=&quot;-1&quot;&gt;Do you agree or disagree with TechNova&#39;s decision? Support your answer with specific reasoning about business vs. security trade-offs.&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;what-compensating-controls-safety-measures-did-tech-nova-put-in-place-to-reduce-risk-while-keeping-the-vulnerable-server-running&quot; tabindex=&quot;-1&quot;&gt;What compensating controls (safety measures) did TechNova put in place to reduce risk while keeping the vulnerable server running?&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;are-these-compensating-controls-adequate-what-additional-controls-would-you-recommend&quot; tabindex=&quot;-1&quot;&gt;Are these compensating controls adequate? What additional controls would you recommend?&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;is-it-ethical-for-a-company-to-knowingly-run-vulnerable-systems&quot; tabindex=&quot;-1&quot;&gt;Is it ethical for a company to knowingly run vulnerable systems?&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;under-what-circumstances-is-this-acceptable-vs-negligent&quot; tabindex=&quot;-1&quot;&gt;Under what circumstances is this acceptable vs. negligent?&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&quot;if-tech-nova-were-breached-by-a-real-attacker-should-the-leadership-team-face-legal-consequences-why-or-why-not&quot; tabindex=&quot;-1&quot;&gt;If TechNova were breached by a real attacker, should the leadership team face legal consequences? Why or why not?&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-250/assignments/operation-shadow-breach/operation-shadow-breach/"/>
+  </entry><entry>
+    <title>TJ1 ‐ Create a Tech Journal</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/</id>
+    <content type="html">&lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li&gt;Created an empty obsidian vault&lt;/li&gt;
@@ -25,175 +487,91 @@
 &lt;li&gt;&lt;a href=&quot;https://dg-docs.ole.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden Docs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/foxblock/digitalgarden_gh-pages&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;digitalgarden_gh-pages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/" />
-        </entry>
-        <entry>
-            <title>
-                Week 2 Kali Cheat Sheet
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/week-2-kali-cheat-sheet/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Week%202%20Kali%20Cheat%20Sheet.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Week 2 Kali Cheat Sheet.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/week-2-kali-cheat-sheet/" />
-        </entry>
-        <entry>
-            <title>
-                SEC-110-71_ Cybersecurity Fundamentals Syllabus-1 (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/SEC-110-71_%20Cybersecurity%20Fundamentals%20Syllabus-1.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;SEC-110-71_ Cybersecurity Fundamentals Syllabus-1.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Module 8 Ciphers and Hashing (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%208%20Ciphers%20and%20Hashing.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 8 Ciphers and Hashing.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Module 7- Cryptography Basics (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/module-7-cryptography-basics-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%207-%20Cryptography%20Basics.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 7- Cryptography Basics.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/module-7-cryptography-basics-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Module 4_ Human Factors in Cybersecurity and Bias (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%204_%20Human%20Factors%20in%20Cybersecurity%20and%20Bias.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 4_ Human Factors in Cybersecurity and Bias.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Module 3_ Risks, Adversaries, and Threats (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/module-3-risks-adversaries-and-threats-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%203_%20Risks,%20Adversaries,%20and%20Threats.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 3_ Risks, Adversaries, and Threats.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/module-3-risks-adversaries-and-threats-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Module 1 What is Cybersecurity (Slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%201%20What%20is%20Cybersecurity.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 1 What is Cybersecurity.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 9 - Networking Basics (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%209%20-%20Networking%20Basics.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 9 - Networking Basics.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 6_ System Security (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/mod-6-system-security-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%206_%20System%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 6_ System Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/mod-6-system-security-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 2_ Intro to VMs and Kali Linux (Slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%202_%20Intro%20to%20VMs%20and%20Kali%20Linux.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 2_ Intro to VMs and Kali Linux.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 12_ Web Security (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/mod-12-web-security-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2012_%20Web%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 12_ Web Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/mod-12-web-security-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 11 Web Fundamentals (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/mod-11-web-fundamentals-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2011%20Web%20Fundamentals.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 11 Web Fundamentals.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/mod-11-web-fundamentals-slides/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 10_ Network Security (slides)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/slides/mod-10-network-security-slides/</id>
-            <content type="html">
-                &lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2010_%20Network%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 10_ Network Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
-            </content>
-            <link href="https://g-only1.github.io/sec-110/slides/mod-10-network-security-slides/" />
-        </entry>
-        <entry>
-            <title>
-                SEC-110
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/sec-110/</id>
-            <content type="html">
-                &lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/"/>
+  </entry><entry>
+    <title>Week 2 Kali Cheat Sheet</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/week-2-kali-cheat-sheet/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Week%202%20Kali%20Cheat%20Sheet.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Week 2 Kali Cheat Sheet.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/week-2-kali-cheat-sheet/"/>
+  </entry><entry>
+    <title>SEC-110-71_ Cybersecurity Fundamentals Syllabus-1 (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/SEC-110-71_%20Cybersecurity%20Fundamentals%20Syllabus-1.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;SEC-110-71_ Cybersecurity Fundamentals Syllabus-1.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/"/>
+  </entry><entry>
+    <title>Module 8 Ciphers and Hashing (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%208%20Ciphers%20and%20Hashing.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 8 Ciphers and Hashing.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/"/>
+  </entry><entry>
+    <title>Module 7- Cryptography Basics (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/module-7-cryptography-basics-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%207-%20Cryptography%20Basics.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 7- Cryptography Basics.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/module-7-cryptography-basics-slides/"/>
+  </entry><entry>
+    <title>Module 4_ Human Factors in Cybersecurity and Bias (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%204_%20Human%20Factors%20in%20Cybersecurity%20and%20Bias.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 4_ Human Factors in Cybersecurity and Bias.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/"/>
+  </entry><entry>
+    <title>Module 3_ Risks, Adversaries, and Threats (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/module-3-risks-adversaries-and-threats-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%203_%20Risks,%20Adversaries,%20and%20Threats.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 3_ Risks, Adversaries, and Threats.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/module-3-risks-adversaries-and-threats-slides/"/>
+  </entry><entry>
+    <title>Module 1 What is Cybersecurity (Slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%201%20What%20is%20Cybersecurity.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 1 What is Cybersecurity.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/"/>
+  </entry><entry>
+    <title>Mod 9 - Networking Basics (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%209%20-%20Networking%20Basics.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 9 - Networking Basics.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/"/>
+  </entry><entry>
+    <title>Mod 6_ System Security (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/mod-6-system-security-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%206_%20System%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 6_ System Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/mod-6-system-security-slides/"/>
+  </entry><entry>
+    <title>Mod 2_ Intro to VMs and Kali Linux (Slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%202_%20Intro%20to%20VMs%20and%20Kali%20Linux.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 2_ Intro to VMs and Kali Linux.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/"/>
+  </entry><entry>
+    <title>Mod 12_ Web Security (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/mod-12-web-security-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2012_%20Web%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 12_ Web Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/mod-12-web-security-slides/"/>
+  </entry><entry>
+    <title>Mod 11 Web Fundamentals (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/mod-11-web-fundamentals-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2011%20Web%20Fundamentals.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 11 Web Fundamentals.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/mod-11-web-fundamentals-slides/"/>
+  </entry><entry>
+    <title>Mod 10_ Network Security (slides)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/slides/mod-10-network-security-slides/</id>
+    <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2010_%20Network%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 10_ Network Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
+    <link href="https://g-only1.github.io/sec-110/slides/mod-10-network-security-slides/"/>
+  </entry><entry>
+    <title>SEC-110</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/sec-110/</id>
+    <content type="html">&lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
 &lt;h2 id=&quot;week-1-what-is-cybersecurity&quot; tabindex=&quot;-1&quot;&gt;Week 1: What is Cybersecurity?&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/&quot;&gt;TJ1 ‐ Create a Tech Journal&lt;/a&gt;&lt;br /&gt;
@@ -233,19 +611,13 @@
 &lt;hr /&gt;
 &lt;h2 id=&quot;week-15-final-project-and-amp-quiz-3&quot; tabindex=&quot;-1&quot;&gt;Week 15: Final Project &amp;amp; Quiz 3&lt;/h2&gt;
 &lt;hr /&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/sec-110/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 9 - Networking Basics
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-9-networking-basics/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/sec-110/"/>
+  </entry><entry>
+    <title>Mod 9 - Networking Basics</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-9-networking-basics/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Network Topologies&lt;/strong&gt;
 &lt;ul&gt;
@@ -433,19 +805,13 @@
 &lt;hr /&gt;
 &lt;h1 id=&quot;slides&quot; tabindex=&quot;-1&quot;&gt;Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/&quot;&gt;Mod 9 - Networking Basics (slides)&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-9-networking-basics/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 8 - Ciphers and Hashing
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-8-ciphers-and-hashing/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-9-networking-basics/"/>
+  </entry><entry>
+    <title>Mod 8 - Ciphers and Hashing</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-8-ciphers-and-hashing/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Hash Functions&lt;/strong&gt;
 &lt;ul&gt;
@@ -655,19 +1021,13 @@
 &lt;/ul&gt;
 &lt;h1 id=&quot;slides&quot; tabindex=&quot;-1&quot;&gt;Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/&quot;&gt;Module 8 Ciphers and Hashing (slides)&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-8-ciphers-and-hashing/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 7- Cryptography Basics
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-8-ciphers-and-hashing/"/>
+  </entry><entry>
+    <title>Mod 7- Cryptography Basics</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;MITRE ATT&amp;amp;CK framework will be a good resource for the final project&lt;/li&gt;
 &lt;li&gt;Cryptography makes every MFA system secure under the hood&lt;/li&gt;
@@ -790,19 +1150,13 @@
 &lt;/ul&gt;
 &lt;h1 id=&quot;slides&quot; tabindex=&quot;-1&quot;&gt;Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/&quot;&gt;Mod 7- Cryptography Basics&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 5 – Data Security
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-5-data-security/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/"/>
+  </entry><entry>
+    <title>Mod 5 – Data Security</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-5-data-security/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;What is Data?&lt;/p&gt;
@@ -946,19 +1300,13 @@
 &lt;p&gt;Stored data such as on your phone, laptop, or cloud storage.&lt;/p&gt;
 &lt;h1 id=&quot;slides&quot; tabindex=&quot;-1&quot;&gt;Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://g-only1.github.io/404&quot; target=&quot;&quot;&gt;Mod 5_ Data Security (slides)&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-5-data-security/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 4 - Human Factors in Cybersecurity and Bias
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-5-data-security/"/>
+  </entry><entry>
+    <title>Mod 4 - Human Factors in Cybersecurity and Bias</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Bias impacts in Cybersecurity&lt;/strong&gt;
 &lt;ul&gt;
@@ -1190,19 +1538,13 @@
 &lt;/ul&gt;
 &lt;h1 id=&quot;slides&quot; tabindex=&quot;-1&quot;&gt;Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/&quot;&gt;Module 4_ Human Factors in Cybersecurity and Bias (slides)&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 2 - Intro to Kali
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-2-intro-to-kali/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/"/>
+  </entry><entry>
+    <title>Mod 2 - Intro to Kali</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-2-intro-to-kali/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;We will be using Kali Linux in this class
 &lt;ul&gt;
@@ -1307,19 +1649,13 @@ Common Operating Systems are:&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/&quot;&gt;Mod 2_ Intro to VMs and Kali Linux (Slides)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-2-intro-to-kali/" />
-        </entry>
-        <entry>
-            <title>
-                Mod 1 - What is Cybersecurity? (Notes)
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/</id>
-            <content type="html">
-                &lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-2-intro-to-kali/"/>
+  </entry><entry>
+    <title>Mod 1 - What is Cybersecurity? (Notes)</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/</id>
+    <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Cybersecurity is fundamentally defensive.&lt;/li&gt;
 &lt;li&gt;To predict threats &amp;amp; defend attacks you need to think like an attacker&lt;/li&gt;
@@ -1479,33 +1815,13 @@ Access based on the person’s attributes and conditions&lt;/li&gt;
 &lt;hr /&gt;
 &lt;h1 id=&quot;slides&quot; tabindex=&quot;-1&quot;&gt;Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/&quot;&gt;Module 1 What is Cybersecurity (Slides)&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/" />
-        </entry>
-        <entry>
-            <title>
-                Home
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/</id>
-            <content type="html">
-                &lt;h1 id=&quot;home&quot; tabindex=&quot;-1&quot;&gt;Home&lt;/h1&gt;
-&lt;p&gt;This is a place to put my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://g-only1.github.io/sec-110/sec-110/&quot;&gt;SEC-110&lt;/a&gt; notes &amp;amp; tech journals. I also have notes from my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://g-only1.github.io/404&quot; target=&quot;&quot;&gt;Home Lab&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/" />
-        </entry>
-        <entry>
-            <title>
-                Cisco CME Configuration
-                
-            </title>
-            <updated>2026-04-19T19:03:26Z</updated>
-            <id>https://g-only1.github.io/home-lab/cisco-cme-configuration/</id>
-            <content type="html">
-                &lt;p&gt;This is the challenges, commands, and process used to configure Cisco Call Manager Express (CME) running on a 2800 router with 7940 series IP phones.&lt;/p&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/"/>
+  </entry><entry>
+    <title>Cisco CME Configuration</title>
+    <updated>2026-09-01T17:07:33Z</updated>
+    <id>https://g-only1.github.io/home-lab/cisco-cme-configuration/</id>
+    <content type="html">&lt;p&gt;This is the challenges, commands, and process used to configure Cisco Call Manager Express (CME) running on a 2800 router with 7940 series IP phones.&lt;/p&gt;
 &lt;h1 id=&quot;switch-configuration&quot; tabindex=&quot;-1&quot;&gt;Switch Configuration&lt;/h1&gt;
 &lt;p&gt;My switch is a 24 port Cisco 3500XL with inline power (POE before POE). It is running a very old version of IOS (12.4) so some commands might be different on newer versions.&lt;/p&gt;
 &lt;h2 id=&quot;trunk-port-to-connect-to-cme-router&quot; tabindex=&quot;-1&quot;&gt;Trunk Port to Connect to CME Router&lt;/h2&gt;
@@ -1540,7 +1856,8 @@ Access based on the person’s attributes and conditions&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;interface fastEthernet 0/2&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;switchport mode access&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;switchport access vlan 110&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;switchport voice vlan 115&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;switchport voice vlan dot1p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;switchport trunk encapsulation dot1q&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!note]&lt;br /&gt;
@@ -1633,7 +1950,7 @@ To configure the DHCP server:&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;ip dhcp pool VOICE-POOL&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;network 192.168.115.0 255.255.255.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;default-router 192.168.115.1&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;option 150 ip &amp;lt;ip-address&amp;gt;&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;option 150 ip 192.168.115.1&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;This tells the phones the address of the TFTP server to download configs from.&lt;/li&gt;
 &lt;li&gt;This should be the CME router&#39;s IP address&lt;/li&gt;
@@ -1653,10 +1970,11 @@ To configure the DHCP server:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;enable&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;configure terminial&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.bin&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.loads&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.sb2&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.sbn&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.bin alias P00308010100.bin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.loads alias P00308010100.loads&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.sb2 alias P00308010100.sb2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tftp-server flash:7940-7960/8-1-1/P00308010100.sbn alias P00308010100.sbn&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tftp-server flash:/ringtones/RINGLIST.XML alias RINGLIST.XML&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;end&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;write&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -1674,9 +1992,7 @@ To configure the DHCP server:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://mrncciew.com/wp-content/uploads/2013/07/how-to-configure-cme.pdf&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;how to configure cme.pdf&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmenetwk.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Cisco Unified Communications Manager Express System Administrator Guide&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://www.practicalnetworking.net/stand-alone/configuring-vlans/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Configuring VLANs on Cisco Switches&lt;/a&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://g-only1.github.io/home-lab/cisco-cme-configuration/" />
-        </entry>
-</feed>
+</content>
+    <link href="https://g-only1.github.io/home-lab/cisco-cme-configuration/"/>
+  </entry></feed>
 
