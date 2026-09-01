@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/","tags":["SEC-110","Notes"]}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-01-01","Instructor":"LaKysha Patnode","Lecture Slides":null,"Module #":null,"tags":["SEC-110","Notes"]}}
 ---
 
 # Notes
