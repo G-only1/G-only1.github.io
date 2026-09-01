@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-1-what-is-cybersecurity-notes/","tags":["SEC-110","Notes"]}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-1-what-is-cybersecurity-notes/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-01-21","Instructor":"LaKysha Patnode","Lecture Slides":"[Module 1 What is Cybersecurity.pdf](/img/user/SEC-110/Slides/Module%201%20What%20is%20Cybersecurity.pdf)","Module #":"1","tags":["SEC-110","Notes"]}}
 ---
 
 # Notes
@@ -111,4 +111,4 @@ Having a cybersecurity mindset is about more than stopping attackers
 	- Practicing labs
 ___
 # Slides
-<iframe src="/img/user/SEC-110/Slides/Module%201%20What%20is%20Cybersecurity.pdf" width="100%" height="900px" title="Module 1 What is Cybersecurity.pdf" style="border:1px solid #ccc;"></iframe>
+[[SEC-110/Slides/Module 1 What is Cybersecurity (Slides)\|Module 1 What is Cybersecurity (Slides)]]

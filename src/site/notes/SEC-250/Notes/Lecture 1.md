@@ -1,0 +1,91 @@
+---
+{"dg-publish":true,"permalink":"/sec-250/notes/lecture-1/","dg-note-properties":{}}
+---
+
+
+- What is Cyber security:
+	- Method of defending computer systems, networks, and data from illegal access and harm.
+		- Methods
+		- Processes
+		- Tools
+		- Behaviors
+			- How people interact with systems
+		- Policies
+- Security needs a balance between usability and cost
+- Security costs money but doesn't generate profit
+	- Equipment: Costs money to purchase and maintain
+	- Personnel: expertise, training, paychecks
+	- Slows down processes: Uses extra resources on networks and computers
+	- **ROI**: **R**eturn **O**n **I**nvestment
+		- ROI Formula: ROI = (reduction in risk '$' - cost of controls) / cost of controls
+	- Reduction in risk is hard to quantify
+- The cost of doing security is much lower than the cost of not doing security
+	- The cost of a breach in the US costs over $10 million for a company
+- Risks of ignoring security:
+	- Identity theft
+	- Loosing lots of money \$\$\$\$\$
+	- Intellectual property theft
+	- Data Integrity
+- You can not choose to ignore security, the risks are too high.
+- What might be vulnerable?:
+	- Email
+	- Humans
+	- Security Cameras
+- Risks change over time
+- Security in day to day life:
+	- Account passwords
+	- Phone passwords
+	- VPNs
+	- Password managers
+	- 2FA
+	- Encryption
+- Part of understanding risk is forecasting what we think will happen
+	- We can speculate but we can't know for sure
+- Humans are the "week factor" in security
+	- Passwords: weak, same, or none
+	- Training: are they even trained? do they know what is "secure"?
+	- Behavior: internal & external threats
+- How Security is implemented
+	- It varies *significantly*
+		- every company does it differently
+		- There is no one size fits all solution
+	- Physical Security
+		- Locks
+		- Alarms
+		- Fences
+		- Guards
+		- Cameras
+	- Data
+		- Stored data (data at rest)
+			- Firewall for network access
+			- Antivirus software
+			- Encryption
+			- Authentication
+			- Regular Updates
+		- Transient Data (data in motion)
+			- Firewall 
+			- Encryption
+			- Authentication
+			- Data loss prevention
+- Two Major Approaches:
+	1. Principle of least privilege: Limit access to only those that need it
+		- Every additional access point is another potential security risk
+		- If an account gets compromised, an attacker can only get to what that person had access to.
+		- If that person had access to everything then the attacker also has access to everything
+	2. Transform data so it is only readable to those who need it
+		- Encryption
+		- not usable without the encryption key
+	- These apply to everything, securing buildings, computer networks, or anything else
+- Defense in depth
+	- Security should not rely on a single protective measure
+	- Have multiple layers of security, so if one layer fails there are still others to protect you
+	- Everything has become much more complex
+	- Nothing is completely safe
+	- There is no way to make all layers completely safe
+	- Every layer MUST be secured
+- Information Security
+	- CIA Triad
+		- C: protection from unauthorized access and disclosure
+		- I: Ensuring information remains accurate and hasn't been modified by unauthorized parties
+		- A: Ensuring information in a systems is accessible when needed by authorized users
+	- These three goals conflict with each-other and need to be balanced.
