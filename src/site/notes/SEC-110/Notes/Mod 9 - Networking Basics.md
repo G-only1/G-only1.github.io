@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-9-networking-basics/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-03-25","Instructor":"LaKysha Patnode","Lecture Slides":"[Mod 9 - Networking Basics.pdf](/img/user/SEC-110/Slides/Mod%209%20-%20Networking%20Basics.pdf)","Module #":["9"],"tags":["SEC-110","Notes"]}}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-9-networking-basics/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-03-25","Instructor":"LaKysha Patnode","Lecture Slides":"[[Mod 9 - Networking Basics.pdf]]","Module #":["9"],"tags":["SEC-110","Notes"]}}
 ---
 
 # Notes

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sec-110/notes/mod-8-ciphers-and-hashing/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-03-18","Instructor":"LaKysha Patnode","Lecture Slides":"[Module 8 Ciphers and Hashing.pdf](/img/user/SEC-110/Slides/Module%208%20Ciphers%20and%20Hashing.pdf)","Module #":["8"],"tags":["SEC-110","Notes"]}}
+{"dg-publish":true,"permalink":"/sec-110/notes/mod-8-ciphers-and-hashing/","tags":["SEC-110","Notes"],"dg-note-properties":{"date":"2026-03-18","Instructor":"LaKysha Patnode","Lecture Slides":"[[Module 8 Ciphers and Hashing.pdf]]","Module #":["8"],"tags":["SEC-110","Notes"]}}
 ---
 
 # Notes
