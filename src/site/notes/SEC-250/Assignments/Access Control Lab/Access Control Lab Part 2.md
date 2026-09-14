@@ -161,18 +161,21 @@ Pinging Jack's VM with my IP blocked in his firewall
 Pinging with Jack's firewall rule disabled
 ![Pasted image 20260912155101.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260912155101.png)
 ## 5. Attack Timeline
+The logs for IIS didn't look like they are missing almost all of the requests to the web server. It also looks like there was a bug with the timestamps in the logs. The table below contains everything that was shown in the IIS logs.
+
 - All web access attempts (successful and blocked)
 
 | Timestamp           | Source IP  | File Reqested | HTTP Status |
 | ------------------- | ---------- | ------------- | ----------- |
 | 2026-09-12 23:21:38 | 10.0.17.18 | /web1.html    | 200         |
-|                     |            |               |             |
+| 2026-09-12 23:21:38 | 10.0.17.18 | /favicon.ico  | 404         |
+| 2026-09-12 23:54:05 | 10.0.17.18 | /web1.html    | 200         |
+| 2026-09-12 23:54:05 | 10.0.17.18 | /favicon.ico  | 404         |
+| 2026-09-13 00:02:03 | 10.0.17.18 | /web1.html    | 200         |
+| 2026-09-13 00:02:03 | 10.0.17.18 | /favicon.ico  | 404         |
 - All RDP attempts (successful and failed)
-
-| Timestamp | Source IP | Event ID | Account Name |     |
-| --------- | --------- | -------- | ------------ | --- |
-|           |           |          |              |     |
 ![Pasted image 20260912163134.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260912163134.png)
+The times in the IIS logs and Event viewer logs aren't properly lining up. In event viewer, all entries above the screenshot were "Audit Success". We had to use my Kali VM as the second neighbor because our third group member didn't show up for the call when we were working on part 2. I tried using rdesktop for the RDP connection steps, i beleive this could be a part of the issue with the misaligned logs.
 ## 6. Answer these analysis questions
 * What activity shows up in IIS logs but NOT in Event Viewer?
 	* **Requests to the website show up in IIS but not Event Viewer.**
