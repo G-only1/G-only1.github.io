@@ -150,21 +150,21 @@ You will use a firewall to get some experience and gain some understanding of th
 
 * *Think about a website or online service you use regularly. Identify at least TWO types of access control that service probably uses to protect your data. Be specific.*
 # Deliverables
-## 1:
+## 1. Enter and see if you get their page. 
 ![Pasted image 20260907183402.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260907183402.png)
 ![Pasted image 20260907183744.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260907183744.png)
-## 2:
+## 2. Attempt to connect to a neighbor’s website page again. This time, the port 80 rule should block it.  
 ![Pasted image 20260907184208.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260907184208.png)
 ![Pasted image 20260907184657.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260907184657.png)
 
-## 3:
+## 3. Show the instructor that this worked. 
 When logged in as Jack:
 ![Pasted image 20260907193409.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260907193409.png)
 When logged in as Ronan:
 ![Pasted image 20260907193527.png](/img/user/SEC-250/Assignments/Access%20Control%20Lab/_asstes/Pasted%20image%2020260907193527.png)
 I was able to edit and save the file.
 
-## 4: Answer the following questions based on your experience in this lab:
+## 4. Answer the following questions based on your experience in this lab:
 
 * Why is it important to have multiple layers of access control instead of relying on just one? Give a specific example from the lab.
 	* **It is important to have multiple layers of access control to prevent a single compromise of a single layer from gaining access to the entire system. If an outer layer becomes compromised there should always be another layer behind it to fall back to. Multiple layers of access control forces an attacker to work much harder and spend much more time than they otherwise would have.**
