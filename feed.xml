@@ -3,10 +3,10 @@
   <title>Digital Garden</title>
   <link href="https://g-only1.github.io/feed.xml" rel="self"/>
   <link href="https://g-only1.github.io"/>
-  <updated>2026-09-14T03:15:12Z</updated>
+  <updated>2026-09-18T15:41:46Z</updated>
   <id>https://g-only1.github.io</id><entry>
     <title>SEC-250</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-250/sec-250/</id>
     <content type="html">&lt;p&gt;&lt;strong&gt;Course Description:&lt;/strong&gt; This course provides an introduction to computer and network security. Students will examine the rationale and necessity for securing computer systems and data networks, as well as methodologies for implementing security, security policies, best current practices, testing security, and incident response.&lt;/p&gt;
 &lt;h4 id=&quot;course-calendar-and-amp-outline&quot; tabindex=&quot;-1&quot;&gt;Course Calendar &amp;amp; Outline&lt;/h4&gt;
@@ -90,7 +90,7 @@
     <link href="https://g-only1.github.io/sec-250/sec-250/"/>
   </entry><entry>
     <title>Lecture 2</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-250/notes/lecture-2/</id>
     <content type="html">&lt;ul&gt;
 &lt;li&gt;Information Security
@@ -255,7 +255,7 @@
     <link href="https://g-only1.github.io/sec-250/notes/lecture-2/"/>
   </entry><entry>
     <title>Lecture 1</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-250/notes/lecture-1/</id>
     <content type="html">&lt;ul&gt;
 &lt;li&gt;What is Cyber security:
@@ -421,7 +421,7 @@
     <link href="https://g-only1.github.io/sec-250/notes/lecture-1/"/>
   </entry><entry>
     <title>Operation Shadow Breach</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-250/assignments/operation-shadow-breach/operation-shadow-breach/</id>
     <content type="html">&lt;h4 id=&quot;summary-in-this-lab-we-found-a-vulnerability-in-tech-nova-s-system-and-used-it-to-gain-access-to-a-server-via-ssh&quot; tabindex=&quot;-1&quot;&gt;Summary: In this lab we found a vulnerability in TechNova&#39;s system and used it to gain access to a server via SSH.&lt;/h4&gt;
 &lt;ol&gt;
@@ -566,8 +566,425 @@
 </content>
     <link href="https://g-only1.github.io/sec-250/assignments/operation-shadow-breach/operation-shadow-breach/"/>
   </entry><entry>
+    <title>SEC250 Gruyere Class Activity</title>
+    <updated>2026-09-18T15:41:29Z</updated>
+    <id>https://g-only1.github.io/sec-250/assignments/gruyere-class-activity/sec-250-gruyere-class-activity/</id>
+    <content type="html">&lt;h1 id=&quot;google-gruyere-class-activity&quot; tabindex=&quot;-1&quot;&gt;Google Gruyere Class Activity&lt;/h1&gt;
+&lt;h4 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h4&gt;
+&lt;p&gt;Instance ID: 578949796762543157915982823272021788477&lt;br /&gt;
+I created two users&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User 1:
+&lt;ul&gt;
+&lt;li&gt;username: asdf&lt;/li&gt;
+&lt;li&gt;password: 1234&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;User 2:
+&lt;ul&gt;
+&lt;li&gt;username: qwer&lt;/li&gt;
+&lt;li&gt;password: 1234&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Objective:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You&#39;re going to spend this activity attacking a website on purpose. Google built Gruyere specifically to be full of security holes, and your job is to find them, exploit them, and figure out how you&#39;d fix them if they were real. By the end, you&#39;ll have hands-on experience with the same kinds of bugs that show up in actual data breaches.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Heads up:&lt;/strong&gt; Only attack the Gruyere instance you start for this activity! Don&#39;t try any of this on a real site, app, or account that isn&#39;t yours. That&#39;s illegal, even if it seems harmless.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key terms&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A few words show up over and over below. If you blank on what one means, just come back to this list.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;Session cookie&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;A small piece of data a website hands your browser after you log in, so you&#39;re not typing your password on every single page. If someone gets an exact copy of that cookie, they can pretend to be you.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;XSS (Cross-Site Scripting)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Getting a website to run a script someone else wrote, inside a completely different person&#39;s browser.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;CSRF (Cross-Site Request Forgery)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Tricking a logged-in user&#39;s browser into doing something on a website that they never meant to do.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;XSSI (Cross-Site Script Inclusion)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;A website hands out private data in a format that another site can read.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Source code&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;The programming behind a website. This is not what shows up when you view a page, but the instructions that build it.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Black-box vs. white-box&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Black-box means you&#39;re only clicking around like a regular visitor. White-box means you&#39;re allowed to read the site&#39;s source code to hunt for the bug.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Template engine&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;How a website builds a page.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Privilege / admin&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;How much access an account has. An &amp;quot;admin&amp;quot; account can usually do a lot more than a regular one.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Path / directory traversal&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Getting a website to hand over a file it was never supposed to give you, usually by messing with the file path (think ../).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&quot;strong-part-1-open-gruyere-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Part 1: Open Gruyere&lt;/strong&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In a web browser, navigate to &lt;a href=&quot;https://google-gruyere.appspot.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/&lt;/a&gt;. Click &amp;quot;Continue&amp;quot; at the bottom of the page, and keep this page open in a tab, since it&#39;s Gruyere&#39;s own walkthrough and it&#39;s got hints and solutions for extra challenges later on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a new tab, open &lt;a href=&quot;https://google-gruyere.appspot.com/start&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/start&lt;/a&gt; and click the start button. Gruyere spins up a private, sandboxed copy of the app just for you and redirects you to a URL like &lt;a href=&quot;https://google-gruyere.appspot.com/%5C&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/&#92;&lt;/a&gt;&amp;lt;a-long-instance-id&amp;gt;/.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write down your instance id somewhere handy: a sticky note, a scratch doc, whatever works. You&#39;ll be pasting it into a lot of URLs below, and nobody wants to retype that number from memory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &amp;quot;sign up&amp;quot; in the top right corner of Gruyere. Create two accounts with basic, memorable credentials. You&#39;ll use both later on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sign into one of your accounts and click &amp;quot;New Snippet&amp;quot; in the top toolbar. Post a snippet with a simple sentence about anything, just so you get a feel for how the app normally works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;strong-part-2-guided-challenges-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Part 2: Guided Challenges&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Complete all 9 challenges below in order. Each one walks you through what the bug is, why it actually matters in the real world, and the exact steps to pull it off yourself.&lt;/p&gt;
+&lt;p&gt;We&#39;ll get started in class, but you&#39;re not expected to finish all 9 during the period. Treat class time as your head start and finish the rest as homework. You&#39;re welcome to work together, so talk through the tricky ones with a classmate if that helps.&lt;/p&gt;
+&lt;p&gt;Submit everything as one combined document, not a separate file per challenge. For every challenge, I&#39;ll need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A screenshot of every step you take, with a quick description under each one so I can follow along with what you did.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A screenshot of the result of your &amp;quot;attack.&amp;quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Answers to the three reflection questions at the end of each challenge (these might take a little outside digging, and that&#39;s expected!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One more thing before you dive in: next to each challenge title, you&#39;ll see either [black-box] or [white-box]. Black-box means you can find the bug just by poking around like a normal user. White-box means the bug isn&#39;t visible anywhere in the app itself. You would have to read Gruyere&#39;s source code to find it. That source is browsable, separate from your own instance, at:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;a href=&quot;https://google-gruyere.appspot.com/code/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/code/&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;p&gt;Bookmark that too. A couple of challenges below will send you straight to a specific file in there.&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-1-file-upload-xss-strong-em-black-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 1: File Upload XSS&lt;/strong&gt;  &lt;em&gt;[black-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: we trust files more than we probably should. If a website lets your browser run an uploaded file as if it belongs to the site, what stops you from uploading malicious code?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: This attack vector keeps showing in content-management systems, forums, and ticketing tools that serve uploads from the same address as the main site.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a plain text editor (Notepad, TextEdit, VS Code, whatever you&#39;ve got) and create a new file named poc.html with exactly this in it:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;script&amp;gt;
+  alert(document.cookie);
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914122733.png&quot; alt=&quot;Pasted image 20260914122733.png&quot; /&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;In Gruyere, click &amp;quot;Upload&amp;quot; in the top menu and upload poc.html.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914122836.png&quot; alt=&quot;Pasted image 20260914122836.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gruyere will give you a confirmation page with a direct link to your file, something like &lt;a href=&quot;https://google-gruyere.appspot.com/%5C&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/&#92;&lt;/a&gt;&amp;lt;instance-id&amp;gt;/&amp;lt;your-username&amp;gt;/poc.html.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914122902.png&quot; alt=&quot;Pasted image 20260914122902.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The upload confirmation page showing that link.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Open that link directly in a separate tab.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914122954.png&quot; alt=&quot;Pasted image 20260914122954.png&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The alert box that pops up. It should show a long string that looks like GRUYERE=...|yourusername|...&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That string is your session cookie, meaning the thing keeping you logged in without retyping your password every time. Since your uploaded file ran as if it were part of Gruyere itself and read that cookie, you&#39;ve just proven a file you uploaded can run with the full access of whoever&#39;s logged in, not just you.&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A06:2025 Insecure Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This vulnerability could allow an attacker to give users seemingly legitimate popups or notifications that look like they are coming from Google Gruyere itself in order to trick a user into sharing their login credentials or downloading malware.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would fix this by limiting the types of files that can be uploaded to the server via the upload button.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;challenge-2-reflected-xss-em-black-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;Challenge 2: Reflected XSS  &lt;em&gt;[black-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: some pages grab a value straight out of the URL and print it right back onto the page, no questions asked. If the site doesn&#39;t clean that value up first, whatever you put in the URL runs as code in the browser of whoever opens the link.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: eBay&#39;s own site had a bug like this back in 2014. Someone could craft a link that dropped a convincing fake login form right over a real eBay page. Anyone who clicked it and typed in their password handed it straight over.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Visit this URL (swap in your own instance id): &lt;code&gt;https://google-gruyere.appspot.com/&amp;lt;instance-id&amp;gt;/snippets.gtl?uid=doesnotexist123&lt;/code&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914123914.png&quot; alt=&quot;Pasted image 20260914123914.png&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The resulting page: look for your made-up value (&amp;quot;doesnotexist123&amp;quot;) echoed back somewhere on it.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Now try this URL instead: &lt;code&gt;https://google-gruyere.appspot.com/&amp;lt;instance-id&amp;gt;/snippets.gtl?uid=&amp;lt;script&amp;gt;alert(document.cookie)&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914124235.png&quot; alt=&quot;Pasted image 20260914124235.png759&quot; width=&quot;759px&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The alert box that pops up, showing your live session cookie.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nothing was uploaded this time, and nothing got saved anywhere. The script ran the second the page loaded, straight off the URL. If someone texted or emailed you this link, or hid it behind a shortened URL, it&#39;d work the same way.&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions-1&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A05:2025 Injection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This could allow an attacker to run any arbitrary JavaScript code they want on the website as if it was coming directly from the website&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would fix this by adding input sanitation to the code that handles the input from the URL&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-3-stored-xss-strong-em-black-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 3: Stored XSS&lt;/strong&gt;  &lt;em&gt;[black-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: this time the malicious script gets saved to the database, so it shows up for every future visitor. No link to click, no upload, nothing. Whoever looks at the page next just becomes a victim automatically.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: The 2005 &amp;quot;Samy&amp;quot; worm on MySpace is the classic story here. One profile carried a script that added &amp;quot;Samy is my hero&amp;quot; to the page and copied itself into anyone who viewed it. It hit over a million profiles in about 20 hours.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Log in with your first account and create a new snippet (Gruyere allows a limited set of HTML tags in snippets; that&#39;s the whole attack surface here). Instead of ordinary text, post exactly this as the snippet content:&lt;br /&gt;
+&lt;code&gt;&amp;lt;b onmouseover=&amp;quot;alert(document.cookie)&amp;quot;&amp;gt;hover over me&amp;lt;/b&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914124911.png&quot; alt=&quot;Pasted image 20260914124911.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Log in with your second account and view the snippet.&lt;/li&gt;
+&lt;li&gt;Hover your mouse over the bolded text. Don&#39;t click, just hover.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914125246.png&quot; alt=&quot;Pasted image 20260914125246.png&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The snippet as it appears on the page, then the alert box that fires when you hover over it.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notice what&#39;s different from Challenge 2? Nobody had to click a crafted link this time. The payload just sits there, waiting for the next person to look, which in a real app could easily be an administrator moderating flagged content.&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions-2&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A06:2025 Insecure Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This could allow an attacker to trick users into handing over account information or downloading malware. It lets an attacker impersonate the website.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would fix this by adding input sanitization to the text input on the New Snippet page.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-4-elevation-of-privilege-strong-em-white-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 4: Elevation of Privilege&lt;/strong&gt;  &lt;em&gt;[white-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: some apps let your browser tell the server what role you have instead of the server keeping track itself. If you can edit the message your browser sends, you might be able to edit your own permissions right along with it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: First American Financial Corp. exposed roughly 885 million real-estate and mortgage documents back in 2019. This included bank account numbers, Social Security numbers, wire transfer records, all of it. Its document viewer trusted a number in the URL with no check that the requester actually owned that document.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Log in and open your profile edit page (&amp;quot;Profile&amp;quot; in the menu). Notice the form only has fields for name, password, icon, website, color, and a private snippet, nothing about being an admin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So if a hidden &amp;quot;admin&amp;quot; setting exists, it isn&#39;t in this form. It has to live in the code that handles the request when you hit Update. Go pull up Gruyere&#39;s published source and open this file directly:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;a href=&quot;https://google-gruyere.appspot.com/code/resources/editprofile.gtl&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/code/resources/editprofile.gtl&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Use Ctrl+F (or Cmd+F) and search that page for is_admin. You&#39;ll find code checking whether _cookie.is_admin is true, and further down, a hidden form field the admin version of this page includes that yours doesn&#39;t.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914130142.png&quot; alt=&quot;Pasted image 20260914130142.png&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The part(s) of the source code where is_admin shows up.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Now visit this URL (swap in your own instance id):&lt;br /&gt;
+&lt;code&gt;https://google-gruyere.appspot.com/&amp;lt;instance-id&amp;gt;/saveprofile?action=update&amp;amp;is_admin=True&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nothing will look different right away. Your current session cookie still says you&#39;re not an admin. Log out and back in to grab a fresh one.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914130323.png&quot; alt=&quot;Pasted image 20260914130323.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: Your profile page after logging back in: look for a new admin-only option like &amp;quot;Manage the server.&amp;quot;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The page never showed you that field. It was not hidden, not grayed out, just not there at all. The only way to find it was to read the server&#39;s own source code, not to inspect the page harder. That&#39;s really the whole difference between black-box and white-box testing.&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions-3&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A05:2025 Injection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This could allow an attacker to edit the details of any user account on the website.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would fix this by  changing the code to stop trusting input directly from the URL without verifying it some other way.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-5-cross-site-script-inclusion-xssi-strong-em-white-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 5: Cross-Site Script Inclusion (XSSI)&lt;/strong&gt;  &lt;em&gt;[white-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: some endpoints hand back data dressed up to look like a JavaScript file. Browsers don&#39;t restrict who can load a &amp;lt;script src=...&amp;gt; tag the way they lock down other kinds of requests, so if that &amp;quot;script&amp;quot; happens to contain your own private data, any other page that knows the URL can pull it in and read it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: This same pattern (private data served in a format any page can execute and read) keeps turning up in real APIs as an &amp;quot;open by default&amp;quot; leak, handing account data to whatever page bothers to ask.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go to your profile and create a private snippet. Make sure to save!&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914131027.png&quot; alt=&quot;Pasted image 20260914131027.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Log out of this account and go into the second one. You &lt;strong&gt;shouldn’t&lt;/strong&gt; see the private snippet from your other profile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;While logged in, open this URL directly in your browser (swap in your instance id):&lt;br /&gt;
+&lt;code&gt;https://google-gruyere.appspot.com/&amp;lt;instance-id&amp;gt;/feed.gtl&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Take a look at what comes back: it should contain your snippet data, formatted like a script instead of a normal web page.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914131454.png&quot; alt=&quot;Pasted image 20260914131454.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot:&lt;/strong&gt; The raw output of feed.gtl showing your private snippet data.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This one&#39;s a little different from Challenges 1 through 3.  Nobody injected anything into Gruyere. Gruyere&#39;s own, totally legitimate response is the leak. The problem is it never checks who&#39;s asking before handing back private data in a format anyone can run.&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions-4&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A06:2025 Insecure Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This could leak private or sensitive data from user&#39;s accounts.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would fix this by adding code to check if the thing requesting the information has permission to view that thing before sending it to them.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-6-path-traversal-information-disclosure-strong-em-black-box-white-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 6: Path Traversal (Information Disclosure)&lt;/strong&gt;  &lt;em&gt;[black-box / white-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: if a filename comes from something you typed or clicked, and the server just tacks it onto a folder path without double-checking it, then &amp;quot;..&amp;quot; (which just means &amp;quot;go up one folder&amp;quot;) can walk your request right out of the folder it was supposed to stay in.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: Citrix&#39;s ADC and Gateway appliances shipped with a path traversal bug (CVE-2019-19781, disclosed in December 2019) that let an unauthenticated attacker plant and run their own code on the device. It got mass-exploited within weeks and became a favorite way in for ransomware crews.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Gruyere ships a file called secret.txt one folder above the public files it normally serves.&lt;/li&gt;
+&lt;li&gt;Visit this URL directly (swap in your instance id):&lt;br /&gt;
+&lt;code&gt;https://google-gruyere.appspot.com/&amp;lt;instance-id&amp;gt;/..%2fsecret.txt&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Heads up: That %2f is an encoded slash, on purpose. If you type a literal ../ into the address bar, your browser &amp;quot;cleans up&amp;quot; the URL and strips it out before the request is sent.&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914134117.png&quot; alt=&quot;Pasted image 20260914134117.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;: The contents of secret.txt showing up in your browser, a file the app was never supposed to let you near.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;reflection-questions-5&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A01:2025 Broken Access Control&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This could allow an attacker to view important files on the server like /etc/shadow.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would make sure the server is not on a vulnerable version and properly configure the server do disallow this.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-7-configuration-information-disclosure-strong-em-white-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 7: Configuration / Information Disclosure&lt;/strong&gt;  &lt;em&gt;[white-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: debug pages that were handy for a developer during testing sometimes get left in the app when it ships, and they usually show way more than any normal page would.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: Forgotten debug and admin consoles (exposed database pages, unauthenticated dashboards, debug endpoints nobody remembered to turn off) show up constantly in real breach reports and bug-bounty writeups.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Visit this URL on your own instance (swap in your instance id):&lt;br /&gt;
+&lt;code&gt;https://google-gruyere.appspot.com/&amp;lt;instance-id&amp;gt;/dump.gtl&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Screenshot: The full contents of the database this page dumps out, including other users&#39; usernames and passwords in plaintext.&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260914134547.png&quot; alt=&quot;Pasted image 20260914134547.png&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This wasn&#39;t some complicated exploit. It&#39;s just a page a developer built for debugging and never locked down. Most real-world information disclosure looks exactly like this… nothing fancy, just something somebody forgot to switch off.&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions-6&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A06:2025 Insecure Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This allows an attacker to see everything about all users on the website including their passwords. If an attacker found this they would completely own the website.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;I would remove the page from the website.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-8-code-execution-template-injection-strong-em-white-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 8: Code Execution (Template Injection)&lt;/strong&gt;  &lt;em&gt;[white-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Wheilled-in data gets run back through the template process a second time. So if what you typed happens to look like a template instruction, it gets carried out as one. Plain text you typed turns into a command the server runs. This whole bug class is called server-side template injection, and it&#39;s behind some of the nastiest real-world remote code execution vulnerabilities out there.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Why this matters: The 2017 Equifax breach is the big example here: attackers used a known, already-patched code-execution bug in the Apache Struts framework to run their own code on Equifax&#39;s servers, eventually exposing sensitive data (including Social Security numbers) for about 143 million people.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Log in and open your profile edit page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the &amp;quot;Private Snippet&amp;quot; box, instead of ordinary text, type exactly this:&lt;br /&gt;
+&lt;code&gt;{{_db:pprint}}&lt;/code&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260918112140.png&quot; alt=&quot;Pasted image 20260918112140.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click Update to save it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go back to your profile page and take another look.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260918112158.png&quot; alt=&quot;Pasted image 20260918112158.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot:&lt;/strong&gt; Your profile page showing the entire database printed out, instead of your snippet text.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every challenge up to this point got an attacker something out of the app whether it’s a cookie, a deleted snippet, a file. This one&#39;s different… The plain text you typed became an instruction the server followed. That&#39;s the real line between &amp;quot;the app leaked data&amp;quot; and &amp;quot;the attacker is now running code as the app.&amp;quot;&lt;/p&gt;
+&lt;h3 id=&quot;reflection-questions-7&quot; tabindex=&quot;-1&quot;&gt;Reflection questions&lt;/h3&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A05:2025 Injection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This allows attackers to run code as the application itself. It could compromise all data in the application and possibly even let an attacker modify data on the server.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;This can be fixed by adding input sanitization to the text box.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;strong-challenge-9-denial-of-service-quit-the-server-strong-em-white-box-em-strong-2-points-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Challenge 9: Denial of Service (Quit the Server)&lt;/strong&gt;  &lt;em&gt;[white-box]&lt;/em&gt;  &lt;strong&gt;(2 points)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What it is: some admin or maintenance actions are just sitting there as ordinary links, with no extra confirmation or login check. If anyone can visit that link, anyone can use it to take the whole app down for every user on that instance.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Why this matters: The October 2016 Mirai botnet attack on Dyn&#39;s DNS infrastructure is the large-scale version of this same idea: by flooding one piece of shared infrastructure with more traffic than it could handle, attackers knocked Twitter, Netflix, Reddit, and a bunch of other major sites offline for hours.&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Heads up:&lt;/strong&gt; Save this one for LAST! It ends your Gruyere instance. You won&#39;t be able to go back and redo an earlier challenge afterward without spinning up a brand-new instance from &lt;a href=&quot;https://google-gruyere.appspot.com/start.&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://google-gruyere.appspot.com/start.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Log in as an admin (from Challenge 4) and open the server management page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notice a &amp;quot;quit the server&amp;quot; link sitting right next to &amp;quot;reset the server&amp;quot;, both are just links, no extra login step, no confirmation.&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260918112741.png&quot; alt=&quot;Pasted image 20260918112741.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go ahead and click &amp;quot;quit the server.&amp;quot;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260918112803.png&quot; alt=&quot;Pasted image 20260918112803.png&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://g-only1.github.io/img/user/SEC-250/Assignments/Gruyere%20Class%20Activity/_assets/Pasted%20image%2020260918112828.png&quot; alt=&quot;Pasted image 20260918112828.png&quot; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Screenshot:&lt;/strong&gt; The management page showing the &amp;quot;quit the server&amp;quot; link before you click it, then the error or blank page you get afterward when you try to reload Gruyere.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is the simplest bug in the activity, and honestly one of the most damaging in the real world too. A destructive action that should&#39;ve needed authentication and a confirmation step, and instead was just... a link.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reflection questions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Which OWASP Top 10 category (or categories) does this fit into? (&lt;a href=&quot;http://owasp.org/Top10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;owasp.org/Top10&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;This fits into:&lt;/strong&gt; &lt;em&gt;A06:2025 Insecure Design&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What kind of impact could this vulnerability have?&lt;br /&gt;
+&lt;strong&gt;This allows an attacker or literally anybody to take down the server simply by visiting a link. The website could even be taken down accidentally&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How would you fix this vulnerability?&lt;br /&gt;
+&lt;strong&gt;To fix this, i would add authentication and a confirmation message before quitting the server. I would also make it be something other than a link.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrap-Up&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once you&#39;ve wrapped up all 9 challenges, look back over your reflection answers and chew on these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Which of these ten bugs could a teammate have caught just by reviewing the code, before the app ever shipped?&lt;br /&gt;
+&lt;strong&gt;All of these attacks except for challenge 6 could have been caught by careful code review before the app shipped.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which ones would only ever show up by actually running and attacking the app?&lt;br /&gt;
+&lt;strong&gt;Challenge 6 would only show up when running the app because it involves the web server&#39;s configuration/version along with the apps code.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you could only add one fix to Gruyere&#39;s codebase to wipe out the most bugs at once, what would it be, and why&lt;br /&gt;
+&lt;strong&gt;The one most important fix i would add to the codebase is input sanitation on all user inputs. Most of these attacks would not have been possible if user input was treated more carefully.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Want more practice? The Gruyere codelab you bookmarked in Part 1 has several more challenges we didn&#39;t get to here: Cookie Manipulation, Stored XSS via HTML Attribute or AJAX, Reflected XSS via AJAX, Denial of Service by Overloading, and a few more configuration and AJAX bugs. They each come with their own hints and solutions on the official site, so dig in if you want extra credit or just want to keep going.&lt;/em&gt;&lt;/p&gt;
+</content>
+    <link href="https://g-only1.github.io/sec-250/assignments/gruyere-class-activity/sec-250-gruyere-class-activity/"/>
+  </entry><entry>
     <title>Access Control Lab Part 2</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-250/assignments/access-control-lab/access-control-lab-part-2/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;Deliverables are answered at the bottom.&lt;/em&gt;&lt;br /&gt;
 &lt;strong&gt;Access Control Lab Part 2&lt;/strong&gt;&lt;/p&gt;
@@ -913,7 +1330,7 @@ The times in the IIS logs and Event viewer logs aren&#39;t properly lining up. I
     <link href="https://g-only1.github.io/sec-250/assignments/access-control-lab/access-control-lab-part-2/"/>
   </entry><entry>
     <title>Access Control Lab Part 1</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-250/assignments/access-control-lab/access-control-lab-part-1/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;Deliverables are answered at the bottom.&lt;/em&gt;&lt;br /&gt;
 &lt;strong&gt;Access Control Lab Part 1&lt;/strong&gt;&lt;/p&gt;
@@ -1175,7 +1592,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-250/assignments/access-control-lab/access-control-lab-part-1/"/>
   </entry><entry>
     <title>TJ1 ‐ Create a Tech Journal</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/</id>
     <content type="html">&lt;h1 id=&quot;configuration&quot; tabindex=&quot;-1&quot;&gt;Configuration&lt;/h1&gt;
 &lt;hr /&gt;
@@ -1193,85 +1610,85 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/tech-journals/tj-1-create-a-tech-journal/"/>
   </entry><entry>
     <title>Week 2 Kali Cheat Sheet</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/week-2-kali-cheat-sheet/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Week%202%20Kali%20Cheat%20Sheet.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Week 2 Kali Cheat Sheet.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/week-2-kali-cheat-sheet/"/>
   </entry><entry>
     <title>SEC-110-71_ Cybersecurity Fundamentals Syllabus-1 (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/SEC-110-71_%20Cybersecurity%20Fundamentals%20Syllabus-1.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;SEC-110-71_ Cybersecurity Fundamentals Syllabus-1.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/sec-110-71-cybersecurity-fundamentals-syllabus-1-slides/"/>
   </entry><entry>
     <title>Module 8 Ciphers and Hashing (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%208%20Ciphers%20and%20Hashing.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 8 Ciphers and Hashing.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/module-8-ciphers-and-hashing-slides/"/>
   </entry><entry>
     <title>Module 7- Cryptography Basics (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/module-7-cryptography-basics-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%207-%20Cryptography%20Basics.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 7- Cryptography Basics.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/module-7-cryptography-basics-slides/"/>
   </entry><entry>
     <title>Module 4_ Human Factors in Cybersecurity and Bias (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%204_%20Human%20Factors%20in%20Cybersecurity%20and%20Bias.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 4_ Human Factors in Cybersecurity and Bias.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/module-4-human-factors-in-cybersecurity-and-bias-slides/"/>
   </entry><entry>
     <title>Module 3_ Risks, Adversaries, and Threats (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/module-3-risks-adversaries-and-threats-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%203_%20Risks,%20Adversaries,%20and%20Threats.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 3_ Risks, Adversaries, and Threats.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/module-3-risks-adversaries-and-threats-slides/"/>
   </entry><entry>
     <title>Module 1 What is Cybersecurity (Slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Module%201%20What%20is%20Cybersecurity.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Module 1 What is Cybersecurity.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/module-1-what-is-cybersecurity-slides/"/>
   </entry><entry>
     <title>Mod 9 - Networking Basics (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%209%20-%20Networking%20Basics.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 9 - Networking Basics.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/mod-9-networking-basics-slides/"/>
   </entry><entry>
     <title>Mod 6_ System Security (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/mod-6-system-security-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%206_%20System%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 6_ System Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/mod-6-system-security-slides/"/>
   </entry><entry>
     <title>Mod 2_ Intro to VMs and Kali Linux (Slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%202_%20Intro%20to%20VMs%20and%20Kali%20Linux.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 2_ Intro to VMs and Kali Linux.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/mod-2-intro-to-v-ms-and-kali-linux-slides/"/>
   </entry><entry>
     <title>Mod 12_ Web Security (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/mod-12-web-security-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2012_%20Web%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 12_ Web Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/mod-12-web-security-slides/"/>
   </entry><entry>
     <title>Mod 11 Web Fundamentals (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/mod-11-web-fundamentals-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2011%20Web%20Fundamentals.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 11 Web Fundamentals.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/mod-11-web-fundamentals-slides/"/>
   </entry><entry>
     <title>Mod 10_ Network Security (slides)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/slides/mod-10-network-security-slides/</id>
     <content type="html">&lt;iframe src=&quot;https://g-only1.github.io/img/user/SEC-110/Slides/Mod%2010_%20Network%20Security.pdf&quot; width=&quot;100%&quot; height=&quot;900px&quot; title=&quot;Mod 10_ Network Security.pdf&quot; style=&quot;border:1px solid #ccc;&quot;&gt;&lt;/iframe&gt;</content>
     <link href="https://g-only1.github.io/sec-110/slides/mod-10-network-security-slides/"/>
   </entry><entry>
     <title>SEC-110</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/sec-110/</id>
     <content type="html">&lt;p&gt;This is the Homepage for Tech Journals &amp;amp; Notes&lt;/p&gt;
 &lt;h2 id=&quot;week-1-what-is-cybersecurity&quot; tabindex=&quot;-1&quot;&gt;Week 1: What is Cybersecurity?&lt;/h2&gt;
@@ -1317,7 +1734,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/sec-110/"/>
   </entry><entry>
     <title>Mod 9 - Networking Basics</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-9-networking-basics/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -1511,7 +1928,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-9-networking-basics/"/>
   </entry><entry>
     <title>Mod 8 - Ciphers and Hashing</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-8-ciphers-and-hashing/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -1727,7 +2144,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-8-ciphers-and-hashing/"/>
   </entry><entry>
     <title>Mod 7- Cryptography Basics</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -1856,7 +2273,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-7-cryptography-basics/"/>
   </entry><entry>
     <title>Mod 5 – Data Security</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-5-data-security/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -2006,7 +2423,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-5-data-security/"/>
   </entry><entry>
     <title>Mod 4 - Human Factors in Cybersecurity and Bias</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -2244,7 +2661,7 @@ I was able to edit and save the file.&lt;/p&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-4-human-factors-in-cybersecurity-and-bias/"/>
   </entry><entry>
     <title>Mod 2 - Intro to Kali</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-2-intro-to-kali/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -2355,7 +2772,7 @@ Common Operating Systems are:&lt;/li&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-2-intro-to-kali/"/>
   </entry><entry>
     <title>Mod 1 - What is Cybersecurity? (Notes)</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/</id>
     <content type="html">&lt;h1 id=&quot;notes&quot; tabindex=&quot;-1&quot;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
@@ -2521,14 +2938,14 @@ Access based on the person’s attributes and conditions&lt;/li&gt;
     <link href="https://g-only1.github.io/sec-110/notes/mod-1-what-is-cybersecurity-notes/"/>
   </entry><entry>
     <title>Home Lab</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/home-lab/home-lab/</id>
     <content type="html">&lt;p&gt;There will be documentation and other goodies for my homelab here eventually. :)&lt;/p&gt;
 </content>
     <link href="https://g-only1.github.io/home-lab/home-lab/"/>
   </entry><entry>
     <title>Cisco CME Configuration</title>
-    <updated>2026-09-14T03:14:57Z</updated>
+    <updated>2026-09-18T15:41:29Z</updated>
     <id>https://g-only1.github.io/home-lab/cisco-cme-configuration/</id>
     <content type="html">&lt;p&gt;This is the challenges, commands, and process used to configure Cisco Call Manager Express (CME) running on a 2800 router with 7940 series IP phones.&lt;/p&gt;
 &lt;h1 id=&quot;switch-configuration&quot; tabindex=&quot;-1&quot;&gt;Switch Configuration&lt;/h1&gt;
