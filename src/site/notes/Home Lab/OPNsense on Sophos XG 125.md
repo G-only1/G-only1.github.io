@@ -98,7 +98,7 @@ I'm setting up my firewall with three groups called TRUST, WIFI, and UNTRUST. Ea
 3. Add firewall to allow WIFI to UNTRUST
 ![Pasted image 20261003203618.png](/img/user/Home%20Lab/_asstes/Pasted%20image%2020261003203618.png)
 ## Port Forwarding
-I am going to copy over my existing port forwarding rules from my current router.
+I followed Method 1 in the [OPNsense documentation](https://docs.opnsense.org/manual/how-tos/nat_reflection.html) and re-used the values from the existing port forwarding rules from my old router.
 ![Pasted image 20261003205623.png](/img/user/Home%20Lab/_asstes/Pasted%20image%2020261003205623.png)
 ## Dynamic DNS Config
 I did a combination of following the [OPNsense documentation](https://docs.opnsense.org/manual/dynamic_dns.html) and copying settings from my old installation.
@@ -120,3 +120,5 @@ To do later when the router for the cabin is configured
 4. Enable and download Rulesets in the Download tab
 ## Monitoring
 To Do later.
+
+# Troubleshooting
