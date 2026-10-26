@@ -76,6 +76,15 @@
   --text-a: #ff79c6;
   --text-a-hover: #ff79c0;
   --text-mark: #f1fa8c;
+  
+  --highlight-background: #f1fa8c;
+  
+  --highlight-background-red: var(--canvas-color-1);
+  --highlight-background-orange: var(--canvas-color-2);
+  --highlight-background-yellow: var(--canvas-color-3);
+  --highlight-background-green: var(--canvas-color-4);
+  --highlight-background-blue: var(--canvas-color-5);
+  --highlight-background-purple: var(--canvas-color-6);
   --interactive-accent: #50fa7b;
   --blockquote-border: #b294bb;
   --interactive-accent-rgb: #f1fa8c;
@@ -357,7 +366,7 @@ blockquote {
 
 
 
-img {
+img:not(.highlight-swatch) {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -673,20 +682,34 @@ em {
 
 
 
-mark {
-  color: var(--background-primary);
-  background-color: var(--text-mark);
+
+mark:not([data-highlight]) {
+  color: var(--background-primary) !important;
+  background-color: var(--highlight-background);
   padding-top: 1px;
   padding-bottom: 1px;
 }
 
-
-
-.cm-highlight {
+mark[data-highlight] {
   color: var(--background-primary) !important;
-  background-color: var(--text-mark) !important;
+}
+
+
+
+.cm-highlight:not(.cm-highlight-red):not(.cm-highlight-orange):not(.cm-highlight-yellow):not(.cm-highlight-green):not(.cm-highlight-blue):not(.cm-highlight-purple) {
+  color: var(--background-primary) !important;
+  background-color: var(--highlight-background);
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.cm-highlight-red,
+.cm-highlight-orange,
+.cm-highlight-yellow,
+.cm-highlight-green,
+.cm-highlight-blue,
+.cm-highlight-purple {
+  color: var(--background-primary) !important;
 }
 
 
@@ -759,11 +782,6 @@ mark {
   background-color: var(--interactive-accent);
 }
 
-
-.markdown-preview-view mark {
-  color: var(--text-link);
-  background-color: var(--background-primary-alt);
-}
 
 .cm-formatting
 
