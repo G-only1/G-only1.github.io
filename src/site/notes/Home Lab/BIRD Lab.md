@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/home-lab/bird-lab/","tags":["LAB"],"dg-note-properties":{"tags":["LAB"]}}
 ---
 
+# ==🔴**WORK IN PROGRESS==**
 BIRD lab and testing project. The goal here is to learn how to use BIRD by setting up a network with multiple BIRD nodes and configuring them to talk to each other. I'm going to start out simple with RIP and IPv4, once that's working i'll give it a shot with IPv6, finally Ill try to get BGP going with IPv6.
 
 # Starting out simple with RIP and IPv4
