@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/home-lab/bird-lab/","tags":["LAB"],"dg-note-properties":{"tags":["LAB"]}}
 ---
 
-# ==🔴**WORK IN PROGRESS==**
+# ==WORK IN PROGRESS==
 BIRD lab and testing project. The goal here is to learn how to use BIRD by setting up a network with multiple BIRD nodes and configuring them to talk to each other. I'm going to start out simple with RIP and IPv4, once that's working i'll give it a shot with IPv6, finally Ill try to get BGP going with IPv6.
 
 # Starting out simple with RIP and IPv4
@@ -41,4 +41,6 @@ Finally I added a Subnet withing the `birdnet0` VNet. I enabled SNAT to allow VM
 ![Home Lab/_assets/f670bb82a63aa79a89aafe13145af365_MD5.jpeg](/img/user/Home%20Lab/_assets/f670bb82a63aa79a89aafe13145af365_MD5.jpeg)![Home Lab/_assets/1a2d053a92c84c0f376a083647456cff_MD5.jpeg](/img/user/Home%20Lab/_assets/1a2d053a92c84c0f376a083647456cff_MD5.jpeg)
 Once all changes were made I went to Datacenter > SDN and clicked Apply to make the changes usable.
 ### Detour!!
-After the proxmox SDN was configured
+After the proxmox SDN was configured hosts within the 192.168.222.0/24 subnet could make connections out to the LAB subnet (192.168.7.0/24) but the LAB subnet couldn't make connections into the 192.168.222.0/24 subnet. After a bit of investigation I saw that the traffic from the LAB subnet was being routed out through the default gateway instead of to proxmox. 
+
+To fix this I tried adding a static route on the OPNsense router, which initially seemed to work however connections would drop after 20 to 30 seconds. Next I removed the static route from OPNsense and instead added a static route to my laptop with the command `ip route add 192.168.222.0/24 via 192.168.7.142`. After I added the static route to my laptop I could connect to hosts inside the 192.168.7.222/24 subnet just fine from my laptop.
