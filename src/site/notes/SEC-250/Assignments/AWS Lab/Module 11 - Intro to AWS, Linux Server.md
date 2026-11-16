@@ -222,9 +222,11 @@ In this step, you will configure your web server to use HTTPS by generating a se
 
    5. **Deliverable 11:** Answer the following questions:  
       1. What is the difference between a WAF and a traditional firewall? What layer of the network model does each operate at?  
-  A WAF is meant to protect
+  A WAF is meant to protect a single web server or application, while a traditional firewall is meant to protect an entire network or network segment.
       2. ModSecurity uses signature-based detection. What are the limitations to this approach? What kind of attacks might slip through?  
+  A limitation to signature based detection is that attacks need to be known about to be detected. If a signature does not exist for a new attack then it will not be detected and would slip through. Zero day attacks would be very effective here.
       3. How does what you saw in the modsec\_audit.log compare to what you’ve seen in previous labs?
+  The modsec_audit.log file had less timestamps than other logs i had seen and was much more densely packed.
 
 **Stop your AWS instance and shutdown your virtual machine once complete.**
 
